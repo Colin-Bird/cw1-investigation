@@ -1,0 +1,24 @@
+
+===================================================================
+Protocol Hierarchy Statistics
+Filter: 
+
+frame                                    frames:17239 bytes:12113758
+  eth                                    frames:17239 bytes:12113758
+    ip                                   frames:17239 bytes:12113758
+      udp                                frames:2216 bytes:193062
+        dns                              frames:1401 bytes:120638
+        llmnr                            frames:127 bytes:8128
+        dhcp                             frames:4 bytes:1368
+        nbns                             frames:684 bytes:62928
+      tcp                                frames:15023 bytes:11920696
+        http                             frames:1233 bytes:1254640
+          data                           frames:640 bytes:704274
+          urlencoded-form                frames:2 bytes:1222
+          data-text-lines                frames:523 bytes:487576
+          media                          frames:1 bytes:2894
+          xml                            frames:6 bytes:13178
+        tls                              frames:44 bytes:54643
+          tls                            frames:3 bytes:4452
+        smtp                             frames:150 bytes:161911
+===================================================================
