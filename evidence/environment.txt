@@ -1,0 +1,6 @@
+ollama version is 0.40.15
+TShark (Wireshark) 4.6.9 (v4.6.9-0-g2d548b197c75).
+ProductName:		macOS
+ProductVersion:		27.2
+BuildVersion:		26B123
+aa8bd9280b943db2e729b921de58d5fd37c4f8c76d1aa9996e9e5b44bcf7a7a3  /Users/colinbird/cw1/COMP3010CW1.pcap
