@@ -1,0 +1,21 @@
+ 498 MALWARE-CNC Win.Trojan.Pushdo variant outbound connection
+  47 INDICATOR-OBFUSCATION non-alphanumeric javascript detected
+  41 (smtp) Attempted command buffer overflow: more than 512 chars
+  18 POLICY-OTHER Remote non-JavaScript file found in script tag src attribute
+  16 (http_inspect) NO CONTENT-LENGTH OR TRANSFER-ENCODING IN HTTP RESPONSE
+  10 INDICATOR-OBFUSCATION potential javascript unescape obfuscation attempt detected
+   9 (spp_sdf) SDF Combination Alert
+   9 (http_inspect) INVALID CONTENT-LENGTH OR CHUNK SIZE
+   6 FILE-EXECUTABLE Portable Executable binary file magic detected
+   3 INDICATOR-COMPROMISE Suspicious .ru dns query
+   3 Consecutive TCP small segments exceeding threshold
+   3 BROWSER-OTHER local loopback address in html
+   2 FILE-EXECUTABLE download of executable content
+   2 BROWSER-IE Microsoft Internet Explorer 7 emulation via meta tag
+   1 SENSITIVE-DATA Email Addresses
+   1 MALWARE-CNC Win.Trojan.Kazy variant outbound connection
+   1 INDICATOR-OBFUSCATION obfuscated script encoding detected
+   1 (smtp) Attempted response buffer overflow: 856 chars
+   1 (smtp) Attempted response buffer overflow: 611 chars
+   1 (http_inspect) UNESCAPED SPACE IN HTTP URI
+=== SURICATA ===
