@@ -663,3 +663,282 @@ An attacker may use a misleading extension (such as `.gun` for an executable fil
 **My check:** 
 **Verdict:** (correct / partly / wrong / hallucinated)
 **Used in report:** 
+
+---
+### 2026-11-11 15:18 · gemma4:12b
+**Prompt:** These are the largest TCP conversations from a suspected infected host. Do any look like command-and-control traffic? Explain which patterns support that and which weaken it. Only use what is in the data.
+**Input:** `/Users/colinbird/Documents/GitHub/cw1-investigation/evidence/tshark/infected-tcp-conv-top.txt`
+
+**Output:**
+
+Thinking...
+A list of TCP conversations from an infected host (192.168.1.96).
+
+        *   Local IP/Port, Remote IP/Port
+        *   Number of frames/bytes sent/received
+        *   Total bytes/frames
+        *   Start time/Duration
+Identify potential command-and-control (C2) traffic, explaining supporting and weakening patterns based *only* on the provided data.
+
+    *   *High-frequency repeating destinations:* Does a specific IP appear multiple times?
+    *   *Byte ratios:* Is there a lot of data sent to the remote versus received? (Exfiltration vs. C2). Is it a consistent "heartbeat"?
+    *   *Beacons/Time patterns:* Do different connections to the same host occur at specific intervals?
+    *   *Payload/Frame sizes:* Are the sizes uniform across different connections to the same host?
+    *   *Unusual Ports:* Port 25 (SMTP) or 443 (HTTPS) might be used for C2.
+
+    *   **Candidate 1: 104.20.166.37**
+        *   Occurrences:
+            1.  `192.168.1.96:49756 <-> 104.20.166.37:80` (109 frames/172 kB sent, 108/7614 bytes received)
+            2.  `192.168.1.96:49630 <-> 104.20.166.37:80` (108 frames/172 kB sent, 106/7383 bytes received)
+            3.  `192.168.1.96:49728 <-> 104.20.166.37:80` (106 frames/172 kB sent, 106/7899 bytes received)
+            4.  `192.168.1.96:49839 <-> 104.20.166.37:80` (106 frames/172 kB sent, 102/7999 bytes received)
+            5.  `192.168.1.96:49500 <-> 104.20.166.37:80` (91 frames/171 kB sent, 93/7349 bytes received)
+            6.  `192.168.1.96:49453 <-> 104.20.166.37:80` (87 frames/171 kB sent, 90/6230 bytes received)
+        *   *Observation:* Highly consistent. The "Sent" data is almost exactly 171-172 kB for every single connection. The "Received" data is very small (6-8 kB).
+        *   *Verdict:* Strong C2 candidate (Beaconing/Heartbeat).
+
+    *   **Candidate 2: 150.242.140.16**
+        *   Occurrences:
+            1.  `192.168.1.96:49427 <-> 150.242.140.16:80` (23 frames/57 kB sent, 26/3535 bytes received)
+            2.  `192.168.1.96:49938 <-> 150.242.140.16:80` (17 frames/56 kB sent, 23/3664 bytes received)
+        *   *Observation:* Consistent volume (approx 56-57 kB sent) but only twice.
+        *   *Verdict:* Potential, but less certain than the other.
+
+    *   **Candidate 3: 46.30.213.157**
+        *   Occurrences:
+            1.  `192.168.1.96:49401 <-> 46.30.213.157:80` (22 frames/52 kB sent, 22/2882 bytes received)
+            2.  `192.168.1.96:49314 <-> 46.30.213.157:80` (19 frames/52 kB sent, 21/3009 bytes received)
+        *   *Observation:* Consistent volume (52 kB sent), but only twice.
+
+    *   **Candidate 4: 209.85.25.218**
+        *   Occurrences:
+            1.  `192.168.1.96:49553 <-> 209.85.25.218:80` (32 frames/41 kB sent, 33/3320 bytes received)
+            2.  `192.168.1.96:49601 <-> 209.85.25.218:80` (32 frames/41 kB sent, 33/3320 bytes received)
+        *   *Observation:* Identical data transfer (41 kB sent, 3320 bytes received) in both instances.
+
+    *   **Analysis of 104.20.166.37 (The Primary Suspect):**
+        *   *Supporting Patterns:*
+            *   Frequency: Multiple distinct connections to the same IP over a short timeframe.
+            *   Consistency: The sent data is nearly identical (171-172 kB) across 6 different sessions.
+            *   Ratio: The host sends a significant amount of data (172 kB) while receiving very little (approx 7 KB), which can indicate data exfiltration or a large periodic check-in.
+        *   *Weakening Patterns:*
+            *   It's on port 80 (HTTP), which is very common for web browsing.
+
+    *   **Analysis of 209.85.25.218:**
+        *   *Supporting Patterns:*
+            *   Consistency: Identical values for both sessions (32 frames, 41 kB sent, 33/3320 bytes received). This suggests a programmed "heartbeat" or periodic polling.
+        *   *Weakening Patterns:*
+            *   Only two connections are recorded.
+
+    *   Ensure no outside knowledge (no mentions of "common malware IPs" or "Cloudflare" unless the IP belongs to it).
+    *   Stick to the provided numbers.
+...done thinking.
+
+Based on the data provided, the traffic to **104.20.166.37** is the strongest candidate for command-and-control (C2) activity. The traffic to **209.85.25.218** also shows suspicious characteristics.
+
+### Primary Candidate: 104.20.166.37
+
+**Supporting Patterns:**
+*   **Consistency in Data Volume:** There are 6 separate connections to this IP. In 5 of those 6 connections, the "Sent" amount is nearly identical (171 kB or 172 kB). This level of uniformity suggests an automated process rather than a human-driven web session.
+*   **Repeated Behavior:** The host repeatedly establishes new connections to this specific IP in a short period of time.
+*   **Asymmetric Data Ratio:** In every instance, the host sends a large amount of data (approx. 171 kB) while receiving a very small amount (approx. 7 KB). This pattern is often indicative of data exfiltration or a heavy "heartbeat" check-in.
+
+**Weakening Patterns:**
+*   **Common Port:** The traffic occurs over Port 80 (HTTP). Because Port 80 is used for standard web browsing, this traffic could potentially be mistaken for a standard web application or API update.
+
+---
+
+### Secondary Candidate: 209.85.25.218
+
+**Supporting Patterns:**
+*   **Identical Footprint:** There are two connections to this IP. Both connections show the exact same number of frames (32) and the exact same byte counts (41 kB sent, 3320 bytes received). This is a classic indicator of a "heartbeat" or beaconing signal where a piece of malware checks in with a server at regular intervals.
+
+**Weakening Patterns:**
+*   **Low Sample Size:** Only two connections are shown in the data, making it harder to confirm a persistent pattern compared to the 104.20.166.37 IP.
+
+---
+
+### Summary Table of Suspect Activity
+
+| Remote IP | Connection Count | Consistency | Observation |
+| :--- | :--- | :--- | :--- |
+| **104.20.166.37** | 6 | **Very High** | Identical ~172 kB sent per session. |
+| **209.85.25.218** | 2 | **High** | Identical 41 kB sent per session. |
+| **150.242.140.16** | 2 | **Moderate** | Consistent ~56 kB sent, but only 2 samples. |
+| **46.30.213.157** | 2 | **Moderate** | Consistent ~52 kB sent, but only 2 samples. |
+
+
+
+**My check:** 
+**Verdict:** (correct / partly / wrong / hallucinated)
+**Used in report:** 
+
+---
+### 2026-11-11 15:31 · gemma4:12b
+**Prompt:** These are the times the infected host opened new connections to one external IP. Is there a regular interval that suggests beaconing? Only use what is in the data.
+**Input:** `/Users/colinbird/Documents/GitHub/cw1-investigation/evidence/tshark/c2-connections.csv`
+
+**Output:**
+
+Thinking...
+*   Input: A list of timestamps (in UTC) for network connections from an infected host to an external IP.
+    *   Question: Is there a regular interval suggesting beaconing?
+    *   Constraint: Only use what is in the data.
+
+    1.  13:44:12.046
+    2.  13:44:12.521
+    3.  13:44:12.639
+    4.  13:44:14.798
+    5.  13:44:15.228
+    6.  13:44:15.342
+    7.  13:44:16.832
+    8.  13:44:16.952
+    9.  13:44:17.081
+    10. 13:44:39.795
+    11. 13:44:39.912
+    12. 13:44:40.029
+
+    *   Group 1: 13:44:12 to 13:44:17 (Burst of activity)
+    *   Group 2: 13:44:39 to 13:44:40 (Another burst of activity)
+
+    *   Duration of Group 1: 13:44:17.081 - 13:44:12.046 ≈ 5 seconds.
+    *   Duration of Group 2: 13:44:40.029 - 13:44:39.795 ≈ 0.23 seconds.
+    *   Gap between Group 1 and Group 2:
+        *   Group 1 ends around 13:44:17.
+        *   Group 2 starts around 13:44:39.
+        *   Difference: 39 - 17 = 22 seconds? Let's check the delta between the last entry of the first group and the first entry of the second group.
+        *   13:44:39.795 - 13:44:17.081 = 22.714 seconds.
+    *   Wait, look at the `frame.time_delta_displayed` for frame 16732. It is 22.714657000.
+
+    *   The data shows two distinct clusters of activity.
+    *   The first cluster ends at 13:44:17.081.
+    *   The second cluster begins at 13:44:39.795.
+    *   The time difference between the end of the first cluster and the start of the second cluster is **22.714 seconds**.
+
+    However, "Beaconing" usually refers to a recurring period (e.g., every 30 seconds, every 60 seconds).
+    Let's look at the data again. Does it repeat?
+    We only have two clusters. We cannot confirm a "regular" interval (like 30 seconds) because the data only spans ~28 seconds of total time (from 12.04 to 40.02).
+
+    Wait, let's look at the sequence of events.
+    Cluster 1:
+    12.04
+    12.52
+    12.63
+    14.79
+    15.22
+    15.34
+    16.83
+    16.95
+    17.08
+    (Gap)
+    Cluster 2:
+    39.79
+    39.91
+    40.02
+
+    The gap between 17.08 and 39.79 is 22.71 seconds.
+
+    Is there any other pattern?
+    Within Group 1:
+    12.04 to 12.52 = 0.48
+    12.52 to 12.63 = 0.11
+    12.63 to 14.79 = 2.15
+    14.79 to 15.22 = 0.42
+    15.22 to 15.34 = 0.11
+    15.34 to 16.83 = 1.49
+    16.83 to 16.95 = 0.11
+    16.95 to 17.08 = 0.12
+
+    These are small, rapid bursts.
+
+    Looking at the data provided:
+    - Activity starts at 13:44:12.
+    - Activity resumes at 13:44:39.
+    - Difference between the end of the first burst and the start of the second is 22.71 seconds.
+
+    Since there are only two clusters of activity shown in the data, and the data only covers a duration of roughly 28 seconds, there is **not enough data** to establish a "regular" interval for beaconing (which requires a repeating pattern over a longer duration).
+
+    However, if the question is asking if there is a *suggested* interval, the only significant gap is the ~22.7 second gap between the two bursts.
+
+    Let's re-read: "Is there a regular interval that suggests beaconing?"
+    Strictly looking at the data:
+    Cluster 1: 12.04 to 17.08 (5 seconds)
+    Gap: 22.71 seconds
+    Cluster 2: 39.79 to 40.02 (0.23 seconds)
+
+    Based *only* on the provided data, no regular repeating interval can be established because the data only covers two bursts of activity.
+
+    1.  Identify the two groups of activity.
+    2.  Calculate the time difference between the groups.
+    3.  Conclude if a regular interval is present.
+
+    Data check:
+    Group A: 13:44:12.04 to 13:44:17.08
+    Group B: 13:44:39.79 to 13:44:40.02
+    Time between groups: 22.71 seconds.
+
+    Does 22.71 seconds look like a beacon? Usually, beacons are more consistent. Without a 3rd cluster, we can't say it's "regular."
+
+    *Self-Correction:* Sometimes these questions are from CTFs or lab environments where "Yes/No" is expected.
+    If I say "No," why? Because there is only one gap.
+    If I say "Yes," what is the interval? 22.7 seconds.
+
+    Wait, let's look at the `frame.time_delta_displayed` for the first entry of the second group (frame 16732). It is exactly 22.714657. This is the difference between the *last* timestamp of the first group and the *first* timestamp of the second group.
+
+    Most beaconing analysis looks for a consistent delay between bursts of activity. Here, the burst of activity occurs, then a 22-second gap occurs, then another burst starts.
+
+    Given the prompt "Only use what is in the data," the most accurate answer is that there is a 22.7-second gap between the two bursts, but there isn't enough data to confirm a *regular* repeating interval.
+
+    However, if the user wants a "Yes" or "No," the data shows a distinct gap of approximately 22.7 seconds.
+
+    Let's check the numbers again.
+    17.081 to 39.795 = 22.714 seconds.
+    Is there any other math?
+    Is there a pattern in the seconds?
+    12, 13, 14, 15, 16, 17 (Group 1)
+    39, 40 (Group 2)
+
+    Actually, looking at the timestamps:
+    13:44:12
+    13:44:13 (not present, but 12.5, 12.6)
+    13:44:14
+    13:44:15
+    13:44:16
+    13:44:17
+    (Gap)
+    13:44:39
+    13:44:40
+
+    The gap is roughly 22 seconds. Since only one gap is shown, it cannot be confirmed as "regular."
+
+    Final conclusion: No, there is not enough data to establish a regular recurring interval, though there is a single gap of approximately 22.7 seconds between two bursts of activity.
+
+    *Wait*, I should provide the analysis clearly.
+    - Burst 1: 13:44:12.04 to 13:44:17.08
+    - Burst 2: 13:44:39.79 to 13:44:40.02
+    - Gap: 22.71 seconds.
+
+    Since there is only one gap shown, a "regular" interval cannot be established.
+
+    Let's double check if 22.71 is a special number. Not really.
+
+    Final Answer formulation:
+    Based on the data, there is one clear gap of approximately **22.71 seconds** between the first burst of activity (ending at 13:44:17.08) and the second burst of activity (starting at 13:44:39.79). However, because there are only two bursts shown, there is not enough data to confirm a "regular" recurring interval.
+...done thinking.
+
+Based on the data provided, there is **not enough information** to confirm a regular recurring interval for beaconing.
+
+Here is the breakdown of the data:
+
+1.  **Activity Burst 1:** The activity occurs between **13:44:12.04** and **13:44:17.08**.
+2.  **Activity Burst 2:** The activity resumes at **13:44:39.79** and continues to **13:44:40.02**.
+3.  **The Gap:** There is a single gap of **22.71 seconds** between the end of the first burst and the start of the second burst (as shown in the `frame.time_delta_displayed` for frame 16732).
+
+**Conclusion:**
+While there is a distinct gap of approximately **22.7 seconds** between the two periods of activity, a "regular" interval cannot be established because the data only captures one instance of this gap. To identify a regular beacon, a repeating pattern (multiple consistent gaps) would be required.
+
+
+
+**My check:** 
+**Verdict:** (correct / partly / wrong / hallucinated)
+**Used in report:** 

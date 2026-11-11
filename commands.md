@@ -71,3 +71,13 @@ file ~/cw1/objects/* > /Users/colinbird/Documents/GitHub/cw1-investigation/evide
 # 2026-11-11 13:47
 shasum -a 256 ~/cw1/objects/* > /Users/colinbird/Documents/GitHub/cw1-investigation/evidence/hashes.txt
 ```
+
+```zsh
+# 2026-11-11 15:18
+tshark -r /Users/colinbird/cw1/COMP3010CW1.pcap -qz 'conv,tcp,ip.addr==192.168.1.96' > /Users/colinbird/Documents/GitHub/cw1-investigation/evidence/tshark/infected-tcp-conv.txt
+```
+
+```zsh
+# 2026-11-11 15:31
+tshark -r /Users/colinbird/cw1/COMP3010CW1.pcap -2 -Y 'ip.addr==107.180.41.94 && tcp.flags.syn==1 && tcp.flags.ack==0' -T fields -E header=y -e frame.number -e frame.time_utc -e frame.time_delta_displayed > /Users/colinbird/Documents/GitHub/cw1-investigation/evidence/tshark/c2-connections.csv
+```
