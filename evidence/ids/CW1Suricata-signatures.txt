@@ -1,0 +1,10 @@
+ 823 ET TROJAN Backdoor.Win32.Pushdo.s Checkin
+   5 ET POLICY PE EXE or DLL Windows file download
+   5 ET POLICY Binary Download Smaller than 1 MB Likely Hostile
+   2 ETPRO TROJAN Sinkhole.tech Sinkhole Reply
+   2 ET POLICY exe download via HTTP - Informational
+   1 ET TROJAN Possible Downadup/Conficker-C P2P encrypted traffic UDP Ping Packet (bit value 1)
+   1 ET TROJAN Possible Compromised Host Sinkhole Cookie Value Snkz
+   1 ET TROJAN Connection to Fitsec Sinkhole IP (Possible Infected Host)
+   1 ET POLICY Internet Explorer 6 in use - Significant Security Risk
+   1 ET CURRENT_EVENTS WinHttpRequest Downloading EXE

@@ -1,4 +1,7 @@
 
+
+> Analysis prompts in this log were run on Gemma 4 12B (local). See ai/claude-use.md for everything Claude did.
+
 ---
 ### 2026-11-09 12:34 · gemma4:12b
 **Prompt:** You are a SOC analyst. Which internal hosts and external IPs stand out in these conversations, and why? Only use what is in the data.
@@ -96,9 +99,9 @@ The following patterns stand out as suspicious:
 
 
 
-**My check:** 
-**Verdict:** (correct / partly / wrong / hallucinated)
-**Used in report:** 
+**My check:** 192.168.1.96 is right as it’s the only internal host which is confirmed in Phase 3. The high-volume IPs and byte counts match conversations.txt and 59.106.164.230 is the t64.bin download. The “port scanning” claim is wrong as the low-byte rows are unanswered TCP connection attempts (SYNs): 104.27.143.75 to port 25 (SMTP), and 9.9.9.9 to port 80, not DNS. They’re failed spam and HTTP connections, not scanning. Gemma’s reasoning also called 9.9.9.9 “Google” but it’s Quad9. It missed 119.28.70.207, the first malicious download, because that conversation was small.
+**Verdict:** Partly correct
+**Used in report:** Confirmed 192.168.1.96 as the infected host. The scanning claim was rejected and it’s an example for the AI Reflection of an LLM ranking by volume and misreading failed connections.
 
 ---
 ### 2026-11-09 12:49 · gemma4:12b
@@ -260,10 +263,13 @@ Based on the "MALWARE-CNC" tags, the two specific families identified are:
 
 
 
-**My check: look up the malware family Gemma names on Malpedia or in a vendor writeup** 
-**Verdict:** (correct / partly / wrong / hallucinated)
-**Used in report:** 
+**My check:** Pushdo is correct as it matches the 498 Snort alerts and VirusTotal. “Kazy” is a generic antivirus detection name from one alert, not a separate malware family. Gemma correctly said the Suricata data was missing rather than making it up as the Suricata section of combined.txt is empty. Its Snort-vs-Suricata comparison is general knowledge, not from the data. It labelled the SMTP buffer-overflow alerts as noise but they come from the bot’s outbound SMTP sessions so they’re relevant evidence.
+**Verdict:** Partly correct
+**Used in report:** Pushdo named as the malware family which I cross-checked on Malpedia. 
 
+
+# Recovered from terminal scrollback; original log entry overwritten by an editor save at 13:28
+---
 
 *   Input: A snippet of DHCP log data (timestamp, MAC address, IP address, hostname).
     *   Tasks:
@@ -341,8 +347,10 @@ To identify the host, look at the **IP Address** provided in your IDS alert and 
 | 192.168.1.96 | 00:15:c5:de:c7:3b | FlashGordon-PC |
 | 192.168.1.1 | 00:07:0d:65:3b:c1 | (Router/Gateway) |
 
-# Recovered from terminal scrollback; original log entry overwritten by an editor save at 13:28
----
+**My check:** The MAC, IP and hostname match dhcp.tx and E02. The captured packets are DHCP Inform/ACK not a full DORA exchange. Option 12 as the hostname is correct
+**Verdict** Partly correct
+**Used in report** host identifcation (IP, MAC, hostname) only
+
 ### 2026-11-11 08:53 · gemma4:12b
 **Prompt:** Reconstruct the likely infection chain from these HTTP requests in time order. What was downloaded first, and what suggests it was malicious?
 **Input:** `/Users/colinbird/Documents/GitHub/cw1-investigation/evidence/tshark/http-requests.txt`
@@ -417,9 +425,9 @@ The first download occurred at **13:38:32.652026000Z** from **`matied.com`** at 
 
 
 
-**My check:** 
-**Verdict:** (correct / partly / wrong / hallucinated)
-**Used in report:** 
+**My check:** The first request matches frame 6 and E04 and the three downlaods and their order are right.
+**Verdict:** Correct
+**Used in report:** Supports the infection-chain order in Analysis
 
 ---
 ### 2026-11-11 13:21 · gemma4:12b
@@ -428,6 +436,9 @@ The first download occurred at **13:38:32.652026000Z** from **`matied.com`** at 
 
 **Output:**
 
+**My check:** No output as the 242KB input was far larger than Gemma's 4,096 token context window so i stopped the run and re-ran it with the headers only (13:31)
+**Verdict:** n/a - abandoned
+**Used in report:** In the AI reflection as a context-window limitation and what I did about it.
 
 ---
 ### 2026-11-11 13:31 · gemma4:12b
@@ -505,9 +516,9 @@ The server returned a **200 OK** response. The content type was **application/oc
 
 
 
-**My check:** whether Gemma's host, URI and content type match the screenshot 
-**Verdict:** correct
-**Used in report:** 
+**My check:** whether Gemma's host, URI and content type match the screenshot. The content lenght of 241,664 bytes matches the 236 KB size VirusTotal reports for gerv.gun (E07).
+**Verdict:** Correct
+**Used in report:** evidence that frame 6 was the first malicious download.
 
 ---
 ### 2026-11-11 13:37 · gemma4:12b
@@ -546,9 +557,9 @@ The timestamp **contradicts** the earlier analysis. The data shows that the firs
 
 
 
-**My check:** 
-**Verdict:** (correct / partly / wrong / hallucinated)
-**Used in report:** 
+**My check:** 13:38:32.652 comes before 13:40, about 1 min 27 s earlier, matching E05.
+**Verdict:** Correct
+**Used in report:**  The Ai check on time of infection in the timeline and technical reasoning.
 
 ---
 ### 2026-11-11 13:47 · gemma4:12b
@@ -660,9 +671,9 @@ An attacker may use a misleading extension (such as `.gun` for an executable fil
 
 
 
-**My check:** 
-**Verdict:** (correct / partly / wrong / hallucinated)
-**Used in report:** 
+**My check:** It found all three PE32 executables and correctly flagged gerv.gun's mismatched extension matching file-types.txt. It rightly exlcuded the COFF object file but it didn't flag t64.bin as suspicioud even though that file came from the same download chain.
+**Verdict:** Correct
+**Used in report:** Finding - gerv.gun was disguised with a non-executable extension.
 
 ---
 ### 2026-11-11 15:18 · gemma4:12b
@@ -769,9 +780,9 @@ Based on the data provided, the traffic to **104.20.166.37** is the strongest ca
 
 
 
-**My check:** 
-**Verdict:** (correct / partly / wrong / hallucinated)
-**Used in report:** 
+**My check:** Both IPs serve legitimate homepages during the GET / burst with irregular gaps of 0.4-18.9s. They are Pushdo decoy traffic, not beaconing C2
+**Verdict:** Partly correct
+**Used in report:** As an example of how an LLM can mistake volume for C2
 
 ---
 ### 2026-11-11 15:31 · gemma4:12b
@@ -942,3 +953,463 @@ While there is a distinct gap of approximately **22.7 seconds** between the two 
 **My check:** 
 **Verdict:** (correct / partly / wrong / hallucinated)
 **Used in report:** 
+
+---
+### 2026-11-11 15:47 · gemma4:12b
+**Prompt:** Map each event in this timeline to a MITRE ATT&CK technique ID and name. If an event does not clearly map to a technique, say so instead of guessing.
+**Input:** `/Users/colinbird/Documents/GitHub/cw1-investigation/evidence/timeline.md`
+
+**Output:**
+
+Thinking...
+*   Task: Map events in a provided incident timeline to MITRE ATT&CK technique IDs and names.
+    *   Constraint: If an event doesn't map clearly, say so (don't guess).
+    *   Data Source: A security analyst's timeline describing an infection on a host (FlashGordon-PC) involving a .js downloader, malicious file downloads (PE executables), and subsequent C2/spambot activity (Pushdo/Cutwail).
+
+    *   *Event 1: User likely opened a malspam .js downloader (not in pcap)*
+        *   *Description:* User interaction with a malicious script/file.
+        *   *MITRE Mapping:* This is "User Execution" or "Initial Access" via "User Execution" or "Phishing". However, since it's a .js downloader, it's often related to **Execution: User Execution (T1204.001)** or **Initial Access: Phishing (T1566)**. Since the *action* is the user opening it, **Execution: User Execution** fits.
+
+    *   *Event 2: 13:38:32 | DNS lookup for matied.com*
+        *   *Description:* Looking up a domain.
+        *   *MITRE Mapping:* **Command and Control: DNS Query (T1091)**.
+
+    *   *Event 3: 13:38:32 | GET /gerv.gun (WinHttp.WinHttpRequest.5)*
+        *   *Description:* Fetching a script/file from a remote server.
+        *   *MITRE Mapping:* **Resource Development: External Remote Data Access (T1105)** or **Command and Control: Application Layer Protocol (T1071)**. Specifically, downloading a malicious payload. Let's look for "Ingress Tool Transfer".
+
+    *   *Event 4: 13:38:34 | Snort FILE-EXECUTABLE download (PE binary)*
+        *   *Description:* Receiving a PE file.
+        *   *MITRE Mapping:* **Resource Development: External Remote Data Access (T1105)** or **Ingress Tool Transfer (T1105)**. Let's go with **Ingress Tool Transfer (T1105)**.
+
+    *   *Event 5: 13:38:36 | Response complete: application/octet-stream; file is a PE32 executable*
+        *   *Description:* Completion of the download.
+        *   *MITRE Mapping:* This is the completion of the **Ingress Tool Transfer (T1105)**.
+
+    *   *Event 6: 13:40:52 | Host identifies itself (DHCP)*
+        *   *Description:* DHCP identification.
+        *   *MITRE Mapping:* This is standard network behavior/configuration. It is not a malicious technique.
+        *   *Decision:* Does not map to a malicious technique.
+
+    *   *Event 7: 13:43:50 | GET /auth/ajax/847598782/?min=data and /auth/min/828949448/ (centler.at)*
+        *   *Description:* Requests to a remote server.
+        *   *MITRE Mapping:* **Command and Control: Application Layer Protocol (T1071)**.
+
+    *   *Event 8: 13:43:52 | Executable downloaded as trow.exe (Pedals.exe)*
+        *   *Description:* Downloading an executable.
+        *   *MITRE Mapping:* **Ingress Tool Transfer (T1105)**.
+
+    *   *Event 9: 13:43:54 | Executable downloaded as wp.exe*
+        *   *Description:* Downloading an executable.
+        *   *MITRE Mapping:* **Ingress Tool Transfer (T1105)**.
+
+    *   *Event 10: 13:43:58 | Payload downloaded as t64.bin (likely encoded/encrypted)*
+        *   *Description:* Downloading an encoded payload.
+        *   *MITRE Mapping:* **Ingress Tool Transfer (T1105)**.
+
+    *   *Event 11: 13:43:52–13:44:01 | Downloaded executables likely ran*
+        *   *Description:* Execution of the binary.
+        *   *MITRE Mapping:* **Execution: Command and Scripting Interpreter (T1059)** (if script) or **Execution: User Account Manipulation** (no). It's **Execution: Process Injection** (no). It's actually **Execution: User Execution (T1204.001)** (if manual) or **Execution: Scheduled Task/Service**? No, it's just "Execution". Since it's a PE file, **Execution: Other** or **Execution: Command and Scripting Interpreter** (if interpreted) or **Execution: Process Creation (T1203)**? No, actually, the standard for running an executable is **Execution: User Execution (T1204.001)** (if manually triggered) or just general **Execution**. Let's look for "Execution: Process Creation" (not a term). Ah, **Execution: User Execution** is the category.
+
+    *   *Event 12: 13:44:01 | myip.opendns.com lookup (public-IP check)*
+        *   *Description:* Checking public IP.
+        *   *MITRE Mapping:* **Discovery: Network Service Scanning** (no), **Discovery: System Information and File System (T1082)** (no). Actually, this is **Discovery: Network Configuration (T1019)**.
+
+    *   *Event 13: 13:44:01–13:44:42 | 637 GET / requests to unrelated sites*
+        *   *Description:* Rapid browsing/scanning.
+        *   *MITRE Mapping:* **Discovery: Network Service Scanning (T1046)** or **Command and Control: Application Layer Protocol (T1071)**. Given it's a "burst" of requests, it looks like **Discovery: Network Service Scanning (T1046)**.
+
+    *   *Event 14: 13:44:11 | Outbound SMTP connections*
+        *   *Description:* Connecting to SMTP servers.
+        *   *MITRE Mapping:* **Command and Control: Application Layer Protocol (T1071)** (specifically SMTP).
+
+    *   *Event 15: 13:44:11 | First Pushdo alert: Snort MALWARE-CNC Win.Trojan.Pushdo*
+        *   *Description:* Communication with a Command and Control (C2) server.
+        *   *MITRE Mapping:* **Command and Control: Application Layer Protocol (T1071)** or **Command and Control: Data Communications (T1105)**? No, **Command and Control: Application Layer Protocol (T1071)** is the best fit for C2 communication.
+
+    *   *Event 16: 13:44:12–13:44:40 | 12 connections to the most-alerted Pushdo IP*
+        *   *Description:* Repeated communication with a C2 server.
+        *   *MITRE Mapping:* **Command and Control: Application Layer Protocol (T1071)**.
+
+    *   *Event 17: Pushdo/Cutwail spambot (Judgement)*
+        *   *Description:* The malware's function.
+        *   *MITRE Mapping:* **Impact: Data Acton (T1491)**? No. **Impact: Availability (T1489)**? No. Spambots are usually **Command and Control** and **Exfiltration**. The *activity* of sending spam is **Command and Control: Application Layer Protocol (T1071)**.
+
+    *   *Refinement on 13:38:32 (DNS):* **Command and Control: DNS Query (T1091)**.
+    *   *Refinement on 13:38:32 (GET /gerv.gun):* **Command and Control: Application Layer Protocol (T1071)**.
+    *   *Refinement on 13:38:34/13:38:36 (File Download):* **Ingress Tool Transfer (T1105)**.
+    *   *Refinement on 13:40:52 (DHCP):* Does not map clearly to a malicious technique.
+    *   *Refinement on 13:43:50 (GET /auth/ajax...):* **Command and Control: Application Layer Protocol (T1071)**.
+    *   *Refinement on 13:43:52/13:43:54/13:43:58 (Downloads):* **Ingress Tool Transfer (T1105)**.
+    *   *Refinement on 13:43:52–13:44:01 (Execution):* **Execution: User Execution (T1204.001)**.
+    *   *Refinement on 13:44:01 (myip.opendns.com):* **Discovery: Network Configuration (T1019)**.
+    *   *Refinement on 13:44:01–13:44:42 (637 GET requests):* **Discovery: Network Service Scanning (T1046)**.
+    *   *Refinement on 13:44:11/13:44:11/13:44:12 (C2/SMTP):* **Command and Control: Application Layer Protocol (T1071)**.
+
+    *   *Item 1 (User opens malspam):* Execution: User Execution (T1204.001) - Actually, the *source* is Phishing (T1566), but the *action* is User Execution. I will provide both for clarity if possible, but focus on the technique.
+    *   *Item 2 (DNS lookup):* Command and Control: DNS Query (T1091).
+    *   *Item 3 (GET /gerv.gun):* Command and Control: Application Layer Protocol (T1071).
+    *   *Item 4/5 (PE Binary Download):* Ingress Tool Transfer (T1105).
+    *   *Item 6 (DHCP):* Does not map clearly to a malicious technique.
+    *   *Item 7 (GET /auth...):* Command and Control: Application Layer Protocol (T1071).
+    *   *Item 8/9/10 (Downloads):* Ingress Tool Transfer (T1105).
+    *   *Item 11 (Execution):* Execution: User Execution (T1204.001).
+    *   *Item 12 (myip.opendns.com):* Discovery: Network Configuration (T1019).
+    *   *Item 13 (637 GET requests):* Discovery: Network Service Scanning (T1046).
+    *   *Item 14/15/16 (C2/SMTP):* Command and Control: Application Layer Protocol (T1071).
+    *   *Item 17 (Spambot):* Command and Control: Application Layer Protocol (T1071) (or technically **Command and Control: Application Layer Protocol** is the transport).
+
+    Wait, **Command and Control: Application Layer Protocol** is very broad. Let's check if there's a better specific one.
+    *   Web Protocols (T1071.001) is specifically for HTTP/S.
+    *   SMTP is often just handled under Application Layer Protocol.
+
+    Let's refine the list for the user.
+
+    *   *Reviewing 13:44:01-13:44:42 (637 GET requests):* Could be **Discovery: Network Service Scanning (T1046)**.
+    *   *Reviewing 13:44:01 (myip.opendns.com):* **Discovery: Network Configuration (T1019)**.
+
+    *Final check on "Does not map":*
+    13:40:52 (DHCP) - Correct, this is standard OS behavior.
+
+    1. before 13:38:32 | User opened malspam -> **Execution: User Execution (T1204.001)**
+    2. 13:38:32 | DNS lookup -> **Command and Control: DNS Query (T1091)**
+    3. 13:38:32 | GET /gerv.gun -> **Command and Control: Application Layer Protocol (T1071)**
+    4. 13:38:34 | Snort FILE-EXECUTABLE -> **Ingress Tool Transfer (T1105)**
+    5. 13:38:36 | Response complete -> **Ingress Tool Transfer (T1105)**
+    6. 13:40:52 | DHCP -> Does not map clearly to a malicious technique.
+    7. 13:43:50 | GET /auth/ajax... -> **Command and Control: Application Layer Protocol (T1071)**
+    8. 13:43:52 | Executable downloaded as trow.exe -> **Ingress Tool Transfer (T1105)**
+    9. 13:43:54 | Executable downloaded as wp.exe -> **Ingress Tool Transfer (T1105)**
+    10. 13:43:58 | Payload downloaded as t64.bin -> **Ingress Tool Transfer (T1105)**
+    11. 13:43:52–13:44:01 | Downloaded executables likely ran -> **Execution: User Execution (T1204.001)**
+    12. 13:44:01 | myip.opendns.com lookup -> **Discovery: Network Configuration (T1019)**
+    13. 13:44:01–13:44:42 | 637 GET requests -> **Discovery: Network Service Scanning (T1046)**
+    14. 13:44:11 | Outbound SMTP connections -> **Command and Control: Application Layer Protocol (T1071)**
+    15. 13:44:11 | Pushdo alert -> **Command and Control: Application Layer Protocol (T1071)**
+    16. 13:44:12–13:44:40 | Pushdo IP connections -> **Command and Control: Application Layer Protocol (T1071)**
+    17. Pushdo/Cutwail spambot -> **Command and Control: Application Layer Protocol (T1071)**
+
+    *Wait*, 13:44:01-13:44:42 (637 GET requests) might be better as **Command and Control: Application Layer Protocol (T1071)** if it's the bot communicating, but since the analyst calls it "unrelated sites" and a "burst," it's often associated with **Discovery: Network Service Scanning (T1046)**. However, in the context of a spambot/botnet, it could also be **Command and Control: Application Layer Protocol**. I'll stick with the most likely malicious intent.
+
+    Actually, let's look at **T1071.001 (Web Protocols)** for the GET requests.
+
+    *Self-Correction on 13:44:01 (myip.opendns.com):* This is a common technique for **Discovery: Network Configuration (T1019)**.
+
+    *Self-Correction on 13:43:52-13:44:01 (Execution):* In MITRE, running a downloaded executable is usually **Execution: User Execution (T1204.001)** if it's a person clicking it, or **Execution: Scheduled Task/Service** if it's automated. Given the context of a "malspam" download, it's almost certainly **User Execution (T1204.001)**.
+
+    *Final Polish:* Ensure IDs and names are exact.
+
+    1. before 13:38:32 | User opened malspam: **Execution: User Execution (T1204.001)**
+    2. 13:38:32 | DNS lookup: **Command and Control: DNS Query (T1091)**
+    3. 13:38:32 | GET /gerv.gun: **Command and Control: Application Layer Protocol (T1071)**
+    4. 13:38:34 | Snort FILE-EXECUTABLE: **Ingress Tool Transfer (T1105)**
+    5. 13:38:36 | Response complete: **Ingress Tool Transfer (T1105)**
+    6. 13:40:52 | DHCP: Does not map clearly to a malicious technique.
+    7. 13:43:50 | GET /auth/ajax...: **Command and Control: Application Layer Protocol (T1071)**
+    8. 13:43:52 | Executable downloaded (trow.exe): **Ingress Tool Transfer (T1105)**
+    9. 13:43:54 | Executable downloaded (wp.exe): **Ingress Tool Transfer (T1105)**
+    10. 13:43:58 | Payload downloaded (t64.bin): **Ingress Tool Transfer (T1105)**
+    11. 13:43:52–13:44:01 | Downloaded executables likely ran: **Execution: User Execution (T1204.001)**
+    12. 13:44:01 | myip.opendns.com lookup: **Discovery: Network Configuration (T1019)**
+    13. 13:44:01–13:44:42 | 637 GET requests: **Discovery: Network Service Scanning (T1046)**
+    14. 13:44:11 | Outbound SMTP connections: **Command and Control: Application Layer Protocol (T1071)**
+    15. 13:44:11 | Pushdo alert: **Command and Control: Application Layer Protocol (T1071)**
+    16. 13:44:12–13:44:40 | Pushdo connections: **Command and Control: Application Layer Protocol (T1071)**
+    17. Pushdo/Cutwail spambot: **Command and Control: Application Layer Protocol (T1071)**
+
+    Wait, 13:44:01-13:44:42 (637 GET requests) could also be **Command and Control: Application Layer Protocol (T1071)**. Given the "burst" of requests to "unrelated sites" in a very short time (41 seconds), this is highly characteristic of a botnet "checking in" or scanning. However, **Discovery: Network Service Scanning (T1046)** is also very common for this description. I will provide the most standard mapping.
+
+    One more look at **Ingress Tool Transfer (T1105)**. This is the correct technique for downloading malware/tools.
+
+    Double-check:
+    **Command and Control: Application Layer Protocol (T1071)** is the standard for C2 via HTTP/HTTPS/etc.
+
+    **Discovery: Network Configuration (T1019)** is for checking public IP/Host info.
+
+    Ready.
+...done thinking.
+
+Based on the incident timeline provided, here is the mapping to the MITRE ATT&CK techniques:
+
+| Time (UTC) | Event | MITRE ATT&CK Technique ID | MITRE ATT&CK Technique Name |
+|---|---|---|---|
+| before 13:38:32 | User likely opened a malspam .js downloader | T1204.001 | Execution: User Execution |
+| 13:38:32 | DNS lookup for matied.com | T1091 | Command and Control: DNS Query |
+| 13:38:32 | GET /gerv.gun | T1071 | Command and Control: Application Layer Protocol |
+| 13:38:34 | Snort FILE-EXECUTABLE download | T1105 | Ingress Tool Transfer |
+| 13:38:36 | Response complete (PE32 executable) | T1105 | Ingress Tool Transfer |
+| 13:40:52 | Host identifies itself (DHCP) | *Does not map clearly to a malicious technique* | |
+| 13:43:50 | GET /auth/ajax/... | T1071 | Command and Control: Application Layer Protocol |
+| 13:43:52 | Executable downloaded as trow.exe | T1105 | Ingress Tool Transfer |
+| 13:43:54 | Executable downloaded as wp.exe | T1105 | Ingress Tool Transfer |
+| 13:43:58 | Payload downloaded as t64.bin | T1105 | Ingress Tool Transfer |
+| 13:43:52–13:44:01 | Downloaded executables likely ran | T1204.001 | Execution: User Execution |
+| 13:44:01 | myip.opendns.com lookup | T1019 | Discovery: Network Configuration |
+| 13:44:01–13:44:42 | 637 GET / requests to unrelated sites | T1046 | Discovery: Network Service Scanning |
+| 13:44:11 | Outbound SMTP connections | T1071 | Command and Control: Application Layer Protocol |
+| 13:44:11 | First Pushdo alert (MALWARE-CNC) | T1071 | Command and Control: Application Layer Protocol |
+| 13:44:12–13:44:40 | 12 connections to the most-alerted Pushdo IP | T1071 | Command and Control: Application Layer Protocol |
+| – | Pushdo/Cutwail spambot (Judgement) | T1071 | Command and Control: Application Layer Protocol |
+
+
+
+**My check:** Checked all 17 rows against ATT&CK.
+- Correct (10): T1105 Ingress Tool Transfer for the five download rows; T1071 Application Layer Protocol for GET /gerv.gun, the centler.at requests, the first Pushdo alert and the 107.180.41.94 connections (more precisely T1071.001 Web Protocols); DHCP correctly left unmapped.
+- Wrong / hallucinated (5): T1204.001 is Malicious Link, not a .js attachment – should be T1204.002 Malicious File, with T1566.001 Spearphishing Attachment and T1059.007 JavaScript; T1204.001 reused for "executables likely ran" is also wrong (no user action); T1091 is Replication Through Removable Media, not "DNS Query" (invented name; a plain DNS lookup doesn't map); T1019 is the retired System Firmware ID, not "Network Configuration" (invented name) – public-IP check is T1016.001 Internet Connection Discovery; T1046 is Network Service Discovery (port scanning) – the GET / burst is web traffic (T1071.001), not scanning.
+- Weak (2): T1071 for outbound SMTP and for the spambot – sending spam is not C2; check T1496 Resource Hijacking.
+- Gemma ignored its own instruction "say so instead of guessing" for T1091 and T1019.
+**Verdict:** partly correct – 10/17 correct, 5 wrong (2 hallucinated ID/name pairs), 2 weak
+**Used in report:** corrected mapping only (T1566.001, T1204.002, T1059.007, T1105, T1071.001, T1016.001, T1496 if confirmed). The T1091/T1019 hallucinations are used in the AI reflection as examples of plausible-looking but invented technique names.
+
+---
+### 2026-11-11 15:50 · gemma4:12b
+**Prompt:** Based on this incident, give three operational and three strategic recommendations. Link each one to a specific section of NIST SP 800-61r3, NCSC guidance or ISO/IEC 27035.
+**Input:** `/Users/colinbird/Documents/GitHub/cw1-investigation/evidence/timeline.md`
+
+**Output:**
+
+Thinking...
+A network pcap analysis (summary table) showing a compromised host (`FlashGordon-PC`) being infected by a JS-based downloader, downloading malicious PE executables (Pushdo/Cutwail spambot), and attempting outbound SMTP connections/C2 communication.
+
+        *   Infection point: 13:38:32 (request to `matied.com`).
+        *   Activity: Downloading `trow.exe`, `wp.exe`, `t64.bin`.
+        *   Post-infection behavior: Massive burst of GET requests (307 hosts in 41s) and outbound SMTP connections (155 mail servers).
+        *   Malware identified: Pushdo/Cutwail spambot.
+Provide three *operational* and three *strategic* recommendations.
+Link each to a specific section of NIST SP 800-61r3, NCSC guidance, or ISO/IEC 27035.
+
+    *   *Malware type:* Win.Trojan.Pushdo (Spambot).
+    *   *Vector:* Malspam .js downloader (downloaded from an external source).
+    *   *Behavior:* Fast, aggressive outbound connections (SMTP, GET bursts), rapid file downloads from disparate IPs, non-standard User-Agents (`WinHttp.WinHttpRequest.5`).
+    *   *Network Visibility:* The pcap only captures a 6-minute window, but the activity is high-volume (307 hosts in 41 seconds).
+
+    *   *Focus:* Immediate, day-to-day actions, technical controls, and procedures.
+    *   *Idea 1: Endpoint Protection.* Since the infection started with a .js/script-based downloader, we need to block these.
+    *   *Idea 2: Network Monitoring/Blocking.* The spam bot behavior is very loud (SMTP, high-frequency GETs). Outbound SMTP should be restricted.
+    *   *Idea 3: Threat Hunting/Forensics.* We need to identify what happened *before* the pcap (the JS file).
+
+    *   *Refining Recommendation 1 (Blocking Scripts/Malware):* Implement Application Whitelisting or ASR (Attack Surface Reduction) rules to block scripts like JS from downloading/executing files.
+        *   *NIST Link:* Detection/Analysis or Containment sections.
+    *   *Refining Recommendation 2 (Egress Filtering):* The spambot used SMTP on port 25 and a high volume of outbound web traffic. Implement strict egress filtering.
+        *   *NIST Link:* Containment.
+    *   *Refining Recommendation 3 (SIEM/Alerting):* The "Pushdo" alert was a clear signal. We need to automate alerting on bursty behaviors.
+        *   *NIST Link:* Detection.
+
+    *   *Focus:* Long-term, policy-driven, organizational, risk-based.
+    *   *Idea 1: Awareness Training.* The entry point was "malspam." Users need to know not to click.
+    *   *Idea 2: Incident Response Planning.* The time between infection (13:38) and the "burst" (13:44) was very short. We need a rapid response plan.
+    *   *Idea 3: Risk Assessment/Defense in Depth.* Why was a host allowed to talk to 300+ different IPs? We need network segmentation.
+
+    *   *Refining Recommendation 1 (Awareness):* Targeted phishing/malware awareness for users who handle email.
+        *   *ISO/IEC 27035:* Focus on the "Preparation" or "Awareness" aspects.
+    *   *Refining Recommendation 2 (Segmentation):* Move toward a Zero Trust or segmented architecture to limit lateral movement/exfiltration.
+        *   *NCSC:* Focus on "Security Architecture."
+    *   *Refining Recommendation 3 (Continuous Monitoring/Logging):* Ensure full visibility of the "pre-infection" phase.
+        *   *NIST:* Continuous Monitoring/Risk Management.
+
+    *   *Selection 1: Egress Filtering (SMTP/Port 25).* Since the spambot attempted to hit 155 mail servers, blocking unauthorized SMTP traffic is a priority.
+        *   *Source:* NIST SP 800-61r3 (Containment).
+    *   *Selection 2: Host-Based Behavior Monitoring (Script Block).* To stop the .js downloader.
+        *   *Source:* NIST SP 800-61r3 (Detection).
+    *   *Selection 3: Automated Alerting on "Burst" Behavior.* Identifying 307 requests in 41 seconds.
+        *   *Source:* NIST SP 800-61r3 (Analysis).
+
+    *   *Selection 1: Security Awareness Training.* Address the root cause (malspam).
+        *   *Source:* ISO/IEC 27035 (Preparation).
+    *   *Selection 2: Network Segmentation.* Prevent a single host from reaching 300+ disparate sites.
+        *   *Source:* NCSC (Design/Architecture).
+    *   *Selection 3: Incident Response Maturity (IR Plan).* The rapid infection-to-spambot-burst cycle requires a "Fast Response" playbook.
+        *   *Source:* ISO/IEC 27035 (Response).
+
+    *   Check: Do they link to the *correct* sections? Yes.
+    *   Check: Are they based on the *actual* data? Yes (the SMTP 25 connections, the JS downloader, the 307 hosts in 41 seconds).
+...done thinking.
+
+Based on the forensic data provided regarding the **Pushdo/Cutwail spambot** infection, here are the operational and strategic recommendations.
+
+### Operational Recommendations
+*Focus: Immediate, technical, and tactical improvements to detect and contain threats.*
+
+**1. Implement Strict Egress Filtering and SMTP Restrictions**
+*   **Rationale:** The logs show the infected host attempted to connect to 155 different mail servers over port 25. Since this is a spambot, the organization should block all outbound traffic on port 25 except for authorized mail gateways.
+*   **Reference:** **NIST SP 800-61r3, Section 3.3 (Containment)** — Specifically, the strategy of "limiting the scope of the incident" by segmenting the network and restricting outbound communication to known-good destinations.
+
+**2. Deploy Script-Based Attack Surface Reduction (ASR)**
+*   **Rationale:** The infection source was a `.js` downloader triggered by a malicious document. The organization should implement policies that block Microsoft Office applications from creating child processes or running scripts (like JavaScript/PowerShell) to prevent the initial "downloader" phase from executing.
+*   **Reference:** **NIST SP 800-61r3, Section 3.2 (Detection)** — Focusing on "identifying indicators of compromise (IOCs)" such as unauthorized script execution and unexpected child processes.
+
+**3. Configure Behavioral Alerts for "High-Frequency" Outbound Requests**
+*   **Rationale:** The data shows a massive burst of 637 GET requests to 307 different hosts in just 41 seconds. This is a signature of a "scanning" or "burst" activity common in botnets. Security teams should create alerts for "High Frequency Connection Counts" to a wide variety of unique IPs in a short window.
+*   **Reference:** **NIST SP 800-61r3, Section 3.2.2 (Analysis)** — Specifically, utilizing automated alerting for "anomalous behavior" to reduce the time between infection and detection.
+
+---
+
+### Strategic Recommendations
+*Focus: Long-term, policy-driven, and organizational changes to reduce risk.*
+
+**1. Enhanced Security Awareness Training for "Malspam" Identification**
+*   **Rationale:** The root cause was a user opening a malspam `.js` downloader. The organization needs a long-term strategy to educate users on the dangers of "overly-active" documents (files that require scripts to run) and the risks of downloading attachments from untrusted sources.
+*   **Reference:** **ISO/IEC 27035, Clause 6 (Preparation/Awareness)** — Focusing on the "Human Element" and organizational training to ensure staff can recognize social engineering and malicious file types.
+
+**2. Adoption of a Zero Trust Network Architecture (Micro-segmentation)**
+*   **Rationale:** The infected host was able to reach 307 different hosts and various external IPs with ease. A strategic move toward micro-segmentation would ensure that a compromised workstation cannot communicate with anything other than the specific resources required for its job function, effectively "quarantining" the damage of a spambot.
+*   **Reference:** **NCSC Guidance (Security Architecture/Design)** — Aligning with the principle of "Least Privilege" and "Defense in Depth" to ensure that compromised endpoints cannot communicate with unnecessary parts of the internal or external network.
+
+**3. Formalized Incident Response Playbook for Rapid-Burst Malware**
+*   **Rationale:** The time between the first malicious download (13:38) and the botnet behavior (13:44) was only 6 minutes. The organization requires a pre-defined "Rapid Response" playbook for high-velocity threats (like Spambots/Ransomware) where automated isolation of the host must occur the moment a "Pushdo" or "Spam" alert is triggered.
+*   **Reference:** **ISO/IEC 27035, Clause 8 (Response)** — Focusing on the "Incident Response" procedures for rapid containment and the formal "Lessons Learned" process to update detection rules.
+
+
+
+**My check:** 
+- Recommendations themselves are mostly sound and tied to the evidence: blocking outbound port 25 except via the mail gateway (155 SMTP servers contacted), alerting on bursts of new destinations (637 GET / to 307 hosts in 41 s), awareness training for malspam, and an isolation playbook (6 minutes from first download to bot activity) all fit.
+- Factual errors: it says the .js was "triggered by a malicious document" and recommends blocking Office child processes – the .js came inside a zip attachment and runs in Windows Script Host, not Office; a better control is the ASR rule "Block JavaScript or VBScript from launching downloaded executable content" or opening .js files in Notepad by default. It calls the GET / burst "scanning" again (it is Pushdo decoy web traffic). Micro-segmentation is aimed at lateral movement, which was not observed; an egress proxy / allow-list fits this incident better.
+- Citations are wrong or unverifiable: NIST SP 800-61r3 (April 2025) is organised by CSF 2.0 Functions (Govern, Identify, Protect, Detect, Respond, Recover), so "Section 3.3 (Containment)", "Section 3.2 (Detection)" and "Section 3.2.2 (Analysis)" follow the old Rev. 2 layout, and in Rev. 2 3.2.2 is "Signs of an Incident", not Analysis. ISO/IEC 27035 has several parts and Gemma names none; "Clause 6 (Preparation/Awareness)" and "Clause 8 (Response)" do not match the 27035-1 structure as far as I can check. "NCSC Guidance (Security Architecture/Design)" is not a specific document – NCSC Secure Design Principles, Zero Trust Architecture Design Principles or 10 Steps to Cyber Security would be real sources.
+**Verdict:** partly correct – recommendations usable after correction; all 6 citations wrong or unverifiable (treat as hallucinated)
+**Used in report:** the recommendation ideas only, rewritten in my own words and re-linked to sections I have checked myself in NIST SP 800-61r3, ISO/IEC 27035-1 and NCSC guidance. Citation errors used in the AI reflection.
+
+---
+### 2026-11-11 16:58 · gemma4:12b
+**Prompt:** You are a detection engineer. Using only this evidence, write two Snort 2.9 rules: one that would detect the initial download request at the start of the infection, and one that would detect the outbound SMTP behaviour of the infected host. Use local SIDs from 1000001. For each rule explain which field in the evidence it relies on, and what legitimate traffic could cause false positives.
+**Input:** `/Users/colinbird/Documents/GitHub/cw1-investigation/evidence/rules/rule-input.txt`
+
+**Output:**
+
+Thinking...
+Detection Engineer.
+Write two Snort 2.9 rules based *only* on the provided evidence.
+
+        1.  Initial download request at the start of infection.
+        2.  Outbound SMTP behavior of the infected host.
+Local SIDs starting from 1000001.
+Explain which field in the evidence each rule relies on and what legitimate traffic could cause false positives (FPs).
+
+    *   *Rule 1 Data:*
+        *   `ip.src`: 192.168.1.96 (Internal) -> `ip.dst`: 119.28.70.207 (External)
+        *   `http.request.method`: GET
+        *   `http.host`: matied.com
+        *   `http.request.uri`: /gerv.gun
+        *   `http.user_agent`: Mozilla/4.0 (compatible; Win32; WinHttp.WinHttpRequest.5)
+        *   `http.response.code`: 200
+        *   `http.content_type`: application/octet-stream
+        *   `http.content_length_header`: 241664 (Bytes)
+    *   *Rule 2 Data:*
+        *   `ip.src`: 192.168.1.96 (Internal)
+        *   `ip.dst`: Multiple IPs (157.112.145.19, 76.74.184.61, etc.)
+        *   Time: 13:44:11 (Approx 6 minutes after initial download).
+        *   Behavior: Multiple connections to various IPs in a very short timeframe (bursty).
+        *   Port: The prompt mentions "Outbound SMTP behaviour", and standard SMTP is port 25.
+
+    *   *Target:* The GET request for `/gerv.gun`.
+    *   *Technical markers:*
+        *   Host: `matied.com`
+        *   URI: `/gerv.gun`
+        *   User Agent: `WinHttp.WinHttpRequest.5` (Common in malware/automated scripts).
+    *   *Rule Construction:*
+        *   `action`: alert
+        *   `protocol`: tcp
+        *   `source_ip`: any (or the internal subnet, but standard rules usually focus on the external communication)
+        *   `source_port`: any
+        *   `dest_ip`: any
+        *   `dest_port`: 80 (Implicitly HTTP)
+        *   `content`: "GET", "/gerv.gun"
+        *   `http_host`: "matied.com"
+        *   `msg`: "Initial download of gerv.gun"
+    *   *Refining for Snort 2.9:*
+        *   `content:"/gerv.gun"`
+        *   `http_uri; content:"/gerv.gun"`
+        *   `http_host; content:"matied.com"`
+        *   `msg:"Suspicious file download - gerv.gun"`
+
+    *   *Target:* High volume of outbound connections from 192.168.1.96 to multiple external IPs.
+    *   *Technical markers:*
+        *   Source IP: 192.168.1.96
+        *   Destination Port: 25 (SMTP)
+        *   Source/Destination frequency: Multiple distinct IPs in 1 second.
+    *   *Rule Construction:*
+        *   Since Snort 2.9 rules are generally single-packet/single-flow, detecting "many connections to many IPs" is hard with a single static rule without `threshold` or `flowbits`.
+        *   However, the prompt asks for a rule to detect the "outbound SMTP behaviour". The behavior is the source internal IP (`192.168.1.96`) connecting to external IPs on port 25.
+        *   *Wait*, a standard Snort rule for this would be: `source_ip 192.168.1.96` -> `dest_port 25`.
+        *   *Better interpretation:* Detect SMTP traffic originating from the internal host.
+    *   *Note:* "Outbound SMTP behavior" refers to the *many* unique IPs. In Snort, we can't easily count unique IPs in a standard rule without a companion rule or thresholds. I will write a rule targeting the SMTP port 25 from the specific internal IP.
+
+    *   *Rule 1 (Download):*
+        *   Source IP: Any
+        *   Dest Port: 80
+        *   Content: `/gerv.gun`
+        *   HTTP Host: `matied.com`
+    *   *Rule 2 (SMTP Behavior):*
+        *   Source IP: `192.168.1.96`
+        *   Dest Port: 25
+        *   Direction: Outbound (internal to external)
+
+    *   *Rules:*
+        1. `alert tcp $any any -> $any 80 (msg:"Suspicious File Download - gerv.gun"; content:"/gerv.gun"; http_uri; content:"matied.com"; http_host; sid:1000001; rev:1;)`
+        2. `alert tcp $host_internal 192.168.1.96 any -> $any 25 (msg:"Outbound SMTP traffic from infected host"; sid:1000002; rev:1;)` (Wait, the `source_ip` should be the actual IP).
+
+    *   *Refining Rule 2:* The data shows multiple connections to many IPs. A rule detecting SMTP from 192.168.1.96 is the standard way to represent this in a firewall/IDS context.
+
+    *   *Explain Fields:*
+        *   Rule 1: `http.request.uri` (/gerv.gun), `http.host` (matied.com).
+        *   Rule 2: `ip.src` (192.168.1.96) and the implicit `ip.dst` port 25.
+
+    *   *Identify False Positives:*
+        *   Rule 1: Users downloading legitimate files from a site that might use a similar path (unlikely for "gerv.gun", but still).
+        *   Rule 2: A legitimate mail server or a workstation running a mail client (Outlook) sending emails to external servers.
+
+    *   Did I use only the evidence provided? Yes.
+    *   Are there two rules? Yes.
+    *   Is the SID starting from 1000001? Yes.
+    *   Are the explanations clear? Yes.
+
+    *Refining Rule 1 logic:* To make it more accurate, I'll include the specific URI and Host.
+    *Refining Rule 2 logic:* The prompt asks for the "outbound SMTP behaviour". Since I can't write a "multiple connections" rule in a single Snort 2.9 rule easily without `threshold`, I will focus on the SMTP (port 25) connection from the source IP.
+
+    *Self-Correction on Rule 2:* The prompt specifically notes "outbound SMTP behaviour". In a professional setting, this is often an "Unauthorized SMTP" alert because 19.168.1.96 is a workstation, not a mail server.
+
+    *Final Rule Polish:*
+    Rule 1:
+    `alert tcp $any any -> $any 80 (msg:"[Malware] Download of gerv.gun"; content:"/gerv.gun"; http_uri; content:"matied.com"; http_host; sid:1000001;)`
+
+    Rule 2:
+    `alert tcp 192.168.1.96 any -> $any 25 (msg:"[Malware] Outbound SMTP activity from infected host"; sid:1000002;)`
+...done thinking.
+
+As a detection engineer, I have developed the following Snort 2.9 rules based on the provided packet capture evidence.
+
+### Snort Rules
+
+```snort
+# Rule 1: Detect the initial download of the malicious executable
+alert tcp $any any -> $any 80 (msg:"MALWARE-DOWNLOAD Initial download of gerv.gun"; flow:to_server,established; content:"/gerv.gun"; http_uri; content:"matied.com"; http_host; sid:1000001; rev:1;)
+
+# Rule 2: Detect the outbound SMTP behavior of the infected host
+alert tcp 192.168.1.96 any -> $any 25 (msg:"MALWARE-BEHAVIOR Outbound SMTP activity from infected host"; flow:to_server,established; sid:1000002; rev:1;)
+```
+
+---
+
+### Rule Explanations
+
+#### Rule 1: Initial Download Detection
+*   **Evidence Fields Relied Upon:**
+    *   `http.request.uri`: Specifically the `/gerv.gun` string.
+    *   `http.host`: Specifically the `matied.com` domain.
+    *   `ip.dst` / `port 80`: Derived from the HTTP request in the evidence.
+*   **Potential False Positives:**
+    *   **Legitimate File Hosting:** If a legitimate website used the same URI path and domain for a non-malicious file, this rule would trigger. However, because the URI `/gerv.gun` is highly specific to this infection, the likelihood of a false positive is low.
+    *   **Development/Testing:** A developer testing a file upload/download service on a domain named "matied.com" might trigger this.
+
+#### Rule 2: Outbound SMTP Behavior Detection
+*   **Evidence Fields Relied Upon:**
+    *   `ip.src`: Specifically the internal IP `192.168.1.96`.
+    *   `ip.dst` (Port 25): The behavior identifies "Outbound SMTP" (Port 25) to a wide range of external IP addresses.
+*   **Potential False Positives:**
+    *   **Internal Mail Servers:** If the host `192.168.1.96` was actually a legitimate mail server authorized to send emails to external recipients, this rule would generate a constant stream of alerts.
+    *   **Mail Clients:** If a user on this workstation is using a legitimate mail client (like Outlook) to send emails to external recipients, it would trigger this rule, as the behavior of an infected host (spamming multiple IPs) mirrors a standard mail client's behavior.
+
+
+
+**My check:** Both rules use $any which won't load. Rule 1 uses http_host which isn't a Snort 2.9 modifer. Rule 2 has no threshold so it alerts on every packet and deosn't detect the burst.
+**Verdict:** Partly correct
+**Used in report:** The corrected v2 rules and the error list goes into the Ai reflection.

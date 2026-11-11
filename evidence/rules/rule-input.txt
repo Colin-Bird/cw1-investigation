@@ -1,0 +1,24 @@
+## Initial download request and response (frames 6 and 204)
+frame.number,frame.time_utc,ip.src,ip.dst,http.request.method,http.host,http.request.uri,http.user_agent,http.response.code,http.content_type,http.content_length_header
+6,2017-06-27T13:38:32.652026000Z,192.168.1.96,119.28.70.207,GET,matied.com,/gerv.gun,Mozilla/4.0 (compatible; Win32; WinHttp.WinHttpRequest.5),,,
+204,2017-06-27T13:38:36.764941000Z,119.28.70.207,192.168.1.96,,,/gerv.gun,,200,application/octet-stream,241664
+
+## Outbound SMTP connection attempts from 192.168.1.96 (first 10 of 475)
+frame.number,frame.time_utc,ip.dst
+5490,2017-06-27T13:44:11.849573000Z,157.112.145.19
+5497,2017-06-27T13:44:11.854022000Z,76.74.184.61
+5499,2017-06-27T13:44:11.856761000Z,94.53.210.218
+5500,2017-06-27T13:44:11.864870000Z,50.28.8.201
+5501,2017-06-27T13:44:11.864908000Z,64.68.200.44
+5502,2017-06-27T13:44:11.864947000Z,52.37.0.233
+5503,2017-06-27T13:44:11.865047000Z,212.98.164.199
+5512,2017-06-27T13:44:11.901486000Z,54.178.140.67
+5526,2017-06-27T13:44:11.914313000Z,31.7.163.133
+5535,2017-06-27T13:44:11.922750000Z,173.205.126.33
+
+## Example of the Snort 2.9 alert format in use
+## First Snort alerts (13:38 gerv.gun download)
+06/27-13:38:34.111294 | 119.28.70.207:80 -> 192.168.1.96:49184 | [**] [1:11192:20] FILE-EXECUTABLE download of executable content [**]
+06/27-13:38:34.111294 | 119.28.70.207:80 -> 192.168.1.96:49184 | [**] [1:15306:22] FILE-EXECUTABLE Portable Executable binary file magic detected [**]
+06/27-13:38:34.111294 | 119.28.70.207:80 -> 192.168.1.96:49184 | [**] [1:15306:22] FILE-EXECUTABLE Portable Executable binary file magic detected [**]
+ 
