@@ -342,3 +342,210 @@ To identify the host, look at the **IP Address** provided in your IDS alert and 
 | 192.168.1.1 | 00:07:0d:65:3b:c1 | (Router/Gateway) |
 
 # Recovered from terminal scrollback; original log entry overwritten by an editor save at 13:28
+---
+### 2026-11-11 08:53 · gemma4:12b
+**Prompt:** Reconstruct the likely infection chain from these HTTP requests in time order. What was downloaded first, and what suggests it was malicious?
+**Input:** `/Users/colinbird/Documents/GitHub/cw1-investigation/evidence/tshark/http-requests.txt`
+
+**Output:**
+
+Thinking...
+The objective is to reconstruct a likely infection chain from a large set of HTTP requests. I need to identify the first download and what suggests it was malicious.
+
+    *   The data consists of timestamps, domains, URLs/paths, and User-Agents.
+    *   *Timestamps:* They range from `13:38:32` to `13:44:42` on `2017-06-27`.
+    *   *User-Agents:*
+        *   `Mozilla/4.0 (compatible; Win32; WinHttp.WinHttpRequest.5)`: This is a common system-level library used for programmatically making web requests (WinHTTP).
+        *   `Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko`: Standard Internet Explorer 11.
+        *   `Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1)`: Older Internet Explorer 8.
+        *   `Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)`: Very old Internet Explorer 6 (Windows 2000/XP era).
+
+    *   The log starts at `13:38:32.652026000Z`.
+    *   The first request is: `matied.com /gerv.gun` using `WinHttp.WinHttpRequest.5`.
+    *   *Analysis of the Request:*
+        *   Domain: `matied.com`
+        *   Path: `/gerv.gun`
+        *   User-Agent: `WinHttp.WinHttpRequest.5` (This indicates the request is coming from an application/script, not a human browsing a web page).
+        *   Path name `/gerv.gun` is highly suspicious. ".gun" or names like "gerv" aren't typical for web files (which usually end in .html, .jpg, .php, etc.).
+
+    *   The subsequent requests happen in very rapid succession (seconds apart).
+    *   The domains are very varied (e.g., `centler.at`, `lounge-haarstudio.nl`, `vantagepointtechnologies.com`, `rts21.co.jp`).
+    *   The paths include `.exe` (e.g., `/oud/trow.exe`, `/wp.exe`) and `.bin` (e.g., `/img/t64.bin`).
+    *   The sheer volume of requests (dozens per second) to unrelated websites is characteristic of a **Botnet** or a **Malware infection** (likely a downloader or a "dropper") trying to find and pull malicious payloads from various Command and Control (C2) servers.
+
+    *   *Step 1:* The initial infection/command (`matied.com/gerv.gun`).
+    *   *Step 2:* The system begins "exploring" or "dropper" activity. It hits several domains (`centler.at`, `lounge-haarstudio.nl`, etc.) trying to download executables (`.exe`) or binary files (`.bin`).
+    *   *Step 3:* A massive burst of "noise" or "beaconing" starts at `13:44:01`. Hundreds of requests are made to random, legitimate-looking websites (like `www.pohlfood.com`, `www.reglera.com`, etc.) with a simple `/` path. This is typical of a bot attempting to reach a C2 server or testing for connectivity across a large list of hardcoded domains.
+
+    *   *The First Download:* The request to `matied.com/gerv.gun` at `13:38:32`.
+    *   *Why was it malicious?*
+        1.  **Non-Standard File Extension:** `.gun` is not a standard web file extension.
+        2.  **System User-Agent:** The `WinHttp.WinHttpRequest.5` User-Agent indicates the request was initiated by an automated background process (a script or application) rather than a human using a browser.
+        3.  **Rapid Subsequent Actions:** Immediately following this request, the system began attempting to download `.exe` and `.bin` files from multiple different domains, which is indicative of "dropper" behavior (downloading and executing malicious code).
+
+    *   Identify the first entry clearly.
+    *   Explain the sequence (Initial Contact -> Dropper Activity -> Beaconing/C2 Communication).
+    *   Explicitly list the indicators of compromise (IoCs).
+...done thinking.
+
+Based on the log data provided, here is the reconstructed infection chain and the identification of the initial malicious activity.
+
+### Infection Chain Reconstruction
+
+1.  **Initial Infection/Command (13:38:32):**
+    The process begins with a single request to `matied.com/gerv.gun`. This is the primary "hook" or initial command from the attacker.
+
+2.  **Dropper/Payload Acquisition (13:43:50 – 13:43:58):**
+    After a period of silence, the system begins a rapid "search and fetch" phase. It attempts to reach multiple different domains to download executable files (`.exe`) and binary files (`.bin`).
+    *   *Notable paths:* `/oud/trow.exe`, `/wp.exe`, and `/img/t64.bin`.
+
+3.  **Botnet Beaconing / C2 Communication (13:44:01 – 13:44:42):**
+    The activity shifts into a high-volume, high-frequency "blasting" phase. The system begins hitting hundreds of different websites (mostly legitimate-looking domains like `www.pohlfood.com`, `www.reglera.com`, etc.) almost simultaneously. This is characteristic of a botnet trying to establish a connection to a Command and Control (C2) server or searching for a "live" beacon from a massive list of hardcoded URLs.
+
+---
+
+### The First Download and Evidence of Malicious Intent
+
+The first download occurred at **13:38:32.652026000Z** from **`matied.com`** at the path **`/gerv.gun`**.
+
+**What suggests it was malicious?**
+
+*   **Suspicious File Extension:** The file extension `.gun` is not a standard web file format (like `.html`, `.php`, or `.jpg`). Attackers often use unusual extensions to evade simple signature-based detection.
+*   **Programmatic User-Agent:** The User-Agent used is `Mozilla/4.0 (compatible; Win32; WinHttp.WinHttpRequest.5)`. This is **not** a standard web browser; it is a Windows API (`WinHTTP`) used by applications and scripts to make web requests. This indicates the request was generated by a piece of software (malware) rather than a human user.
+*   **Subsequent "Dropper" Behavior:** Immediately following this first request, the system began attempting to download executable files (`.exe`) and binary files (`.bin`) from multiple unrelated domains. This "dropper" behavior is a classic sign of a compromised system attempting to pull down further malicious payloads.
+*   **High-Frequency Beaconing:** The sheer volume of requests starting at 13:44:01 (hitting dozens of different sites in milliseconds) is inconsistent with human behavior and is a hallmark of automated malware/botnet activity.
+
+
+
+**My check:** 
+**Verdict:** (correct / partly / wrong / hallucinated)
+**Used in report:** 
+
+---
+### 2026-11-11 13:21 · gemma4:12b
+**Prompt:** You are a SOC analyst. This is one HTTP stream from a suspected infected host. What did the client request, from which host, and what kind of content was returned? Is there anything suspicious about the file name, extension or content type? Only use what is in the data.
+**Input:** `/Users/colinbird/Documents/GitHub/cw1-investigation/evidence/tshark/stream-frame6.txt`
+
+**Output:**
+
+
+---
+### 2026-11-11 13:31 · gemma4:12b
+**Prompt:** You are a SOC analyst. These are the HTTP request (frame 6) and response (frame 204) headers from a suspected infected host. What did the client request, from which host, and what kind of content was returned? Is there anything suspicious about the file name, extension, content type or size? Only use what is in the data.
+**Input:** `/Users/colinbird/Documents/GitHub/cw1-investigation/evidence/tshark/frame6-headers.csv`
+
+**Output:**
+
+Thinking...
+SOC Analyst.
+Analyze specific HTTP request and response headers from a suspected infected host.
+
+        1. What did the client request?
+        2. From which host?
+        3. What kind of content was returned?
+        4. Is there anything suspicious about the file name, extension, content type, or size? (Based *only* on provided data).
+
+        *   `frame.number`: 6
+        *   `ip.src`: 192.168.1.96 (Internal/Client)
+        *   `ip.dst`: 119.28.70.207 (External/Remote)
+        *   `http.request.method`: GET
+        *   `http.host`: matied.com
+        *   `http.request.uri`: /gerv.gun
+        *   `http.user_agent`: Mozilla/4.0 (compatible; Win32; WinHttp.WinHttpRequest.5)
+
+        *   `frame.number`: 204
+        *   `ip.src`: 119.28.70.207 (External/Remote)
+        *   `ip.dst`: 192.168.1.96 (Internal/Client)
+        *   `http.response.code`: 200
+        *   `http.content_type`: application/octet-stream
+        *   `http.content_length_header`: 241664
+
+    *   *Question 1: What did the client request?*
+        *   Source IP: 192.168.1.96
+        *   Action: `GET` request for `/gerv.gun` on `matied.com`.
+
+    *   *Question 2: From which host?*
+        *   The host is `matied.com` (IP: 119.28.70.207).
+
+    *   *Question 3: What kind of content was returned?*
+        *   Response Code: 200 (OK).
+        *   Content Type: `application/octet-stream`.
+        *   Content Length: 241,664 bytes (approx 241 KB).
+
+    *   *Question 4: Suspicious elements?*
+        *   *File Name/Extension:* `gerv.gun`. `.gun` is not a standard file extension for legitimate web content (like .html, .jpg, .js). It looks like a custom or obscure extension often used by malware.
+        *   *Content Type:* `application/octet-stream`. This is a generic binary stream. While not inherently malicious, it is frequently used to deliver executables or binary payloads when combined with unusual file extensions.
+        *   *User Agent:* `Mozilla/4.0 (compatible; Win32; WinHttp.WinHttpRequest.5)`. This is an older Windows HTTP library, often used by automated scripts or malware for fetching payloads rather than a standard modern web browser.
+        *   *Host/URI:* The URI `/gerv.gun` and the host `matied.com` do not appear to correspond to standard web services.
+
+    *   *Client Request:* The client (192.168.1.96) requested the URI `/gerv.gun` from the host `matied.com`.
+    *   *Source Host:* The request was made to `matied.com` (119.28.70.207).
+    *   *Content Returned:* The server returned a `200 OK` response with a content type of `application/octet-stream` and a size of 241,664 bytes.
+    *   *Suspicious Findings:*
+        *   **File Name/Extension:** The `.gun` extension is non-standard for web traffic.
+        *   **Content Type:** `application/octet-stream` indicates raw binary data, which is common for malware payloads.
+        *   **User Agent:** The `WinHttp.WinHttpRequest.5` agent suggests a programmatic request (likely a script or malware) rather than a human user browsing a website.
+...done thinking.
+
+Based on the provided data, here is the analysis:
+
+**1. What did the client request?**
+The client (192.168.1.96) performed a **GET** request for the URI **/gerv.gun**.
+
+**2. From which host?**
+The request was made to the host **matied.com** (IP: 119.28.70.207).
+
+**3. What kind of content was returned?**
+The server returned a **200 OK** response. The content type was **application/octet-stream**, and the size of the content was **241,664 bytes**.
+
+**4. Suspicious Findings:**
+*   **File Name/Extension:** The extension **.gun** is not a standard web file format (e.g., .html, .jpg, .js). It is highly unusual for a web request and often associated with non-standard payloads.
+*   **Content Type:** **application/octet-stream** is a generic binary stream. While not inherently malicious, it is frequently used to deliver compiled executables or binary payloads.
+*   **User Agent:** The User Agent `Mozilla/4.0 (compatible; Win32; WinHttp.WinHttpRequest.5)` indicates the request was made via the Windows HTTP library rather than a standard modern web browser. This is a common indicator of automated scripts, programmatic requests, or malware communication.
+
+
+
+**My check:** whether Gemma's host, URI and content type match the screenshot 
+**Verdict:** correct
+**Used in report:** 
+
+---
+### 2026-11-11 13:37 · gemma4:12b
+**Prompt:** This is the UTC timestamp of the first HTTP request to a suspicious domain. An earlier analysis said infection happened at 13:40 UTC. Does this timestamp support or contradict that? Explain using only the data.
+**Input:** `/Users/colinbird/Documents/GitHub/cw1-investigation/evidence/tshark/frame6-time.txt`
+
+**Output:**
+
+Thinking...
+*   Input Data: A single entry containing a timestamp: `2017-06-27T13:38:32.652026000Z`.
+    *   Claim to evaluate: Infection happened at 13:40 UTC.
+    *   Question: Does the timestamp support or contradict the claim?
+    *   Constraint: Explain using *only* the data.
+
+    *   Time provided in data: `13:38:32` (specifically 13:38:32.652 on 2017-06-27).
+    *   Time mentioned in claim: `13:40` UTC.
+
+    *   The first HTTP request to a suspicious domain occurred at 13:38:32.
+    *   The claim says infection happened at 13:40.
+    *   Comparing the times: 13:38:32 is *before* 13:40.
+    *   Logic: If the first request to a suspicious domain happened at 13:38:32, it implies activity occurred prior to the claimed 13:40 infection time.
+
+    *   Does it support or contradict? It contradicts (or at least shows earlier activity).
+    *   Why? Because 13:38:32 is earlier than 13:40.
+
+    *   *Draft:* The timestamp contradicts the claim. The data shows the first HTTP request occurred at 13:38:32.652. This is approximately 1 minute and 28 seconds earlier than the reported 13:40 infection time.
+
+    *   "Explain using only the data."
+    *   Data point: `2017-06-27T13:38:32.652026000Z`.
+    *   Comparison point: `13:40 UTC`.
+
+    The timestamp **contradicts** the earlier analysis. The data shows the first HTTP request occurred at **13:38:32.652026000Z**, which is approximately 1 minute and 28 seconds before the claimed 13:40 UTC infection time.
+...done thinking.
+
+The timestamp **contradicts** the earlier analysis. The data shows that the first HTTP request to the suspicious domain occurred at **13:38:32.652026000Z**, which is approximately 1 minute and 28 seconds earlier than the reported 13:40 UTC infection time.
+
+
+
+**My check:** 
+**Verdict:** (correct / partly / wrong / hallucinated)
+**Used in report:** 
