@@ -1,0 +1,1117 @@
+/Users/colinbird/cw1/objects/%2f:            ASCII text, with very long lines (596), with no line terminators
+/Users/colinbird/cw1/objects/%2f(1):         ASCII text, with very long lines (568), with no line terminators
+/Users/colinbird/cw1/objects/%2f(10):        ASCII text, with very long lines (584), with no line terminators
+/Users/colinbird/cw1/objects/%2f(100):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(101):       ASCII text, with very long lines (564), with no line terminators
+/Users/colinbird/cw1/objects/%2f(102):       ASCII text, with very long lines (560), with no line terminators
+/Users/colinbird/cw1/objects/%2f(103):       ASCII text, with very long lines (560), with no line terminators
+/Users/colinbird/cw1/objects/%2f(104):       HTML document text, ASCII text, with CRLF, LF line terminators
+/Users/colinbird/cw1/objects/%2f(105):       ASCII text, with very long lines (568), with no line terminators
+/Users/colinbird/cw1/objects/%2f(106):       HTML document text, ASCII text, with very long lines (471)
+/Users/colinbird/cw1/objects/%2f(107):       ASCII text, with very long lines (604), with no line terminators
+/Users/colinbird/cw1/objects/%2f(108):       HTML document text, ASCII text, with very long lines (557)
+/Users/colinbird/cw1/objects/%2f(109):       ASCII text, with very long lines (604), with no line terminators
+/Users/colinbird/cw1/objects/%2f(11):        HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(110):       HTML document text, ASCII text, with very long lines (628)
+/Users/colinbird/cw1/objects/%2f(111):       ASCII text, with very long lines (576), with no line terminators
+/Users/colinbird/cw1/objects/%2f(112):       HTML document text, ASCII text, with very long lines (375)
+/Users/colinbird/cw1/objects/%2f(113):       Arhangel archive data
+/Users/colinbird/cw1/objects/%2f(114):       ASCII text, with very long lines (580), with no line terminators
+/Users/colinbird/cw1/objects/%2f(115):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(116):       ASCII text, with very long lines (588), with no line terminators
+/Users/colinbird/cw1/objects/%2f(117):       HTML document text, ASCII text, with very long lines (471)
+/Users/colinbird/cw1/objects/%2f(118):       ASCII text, with very long lines (568), with no line terminators
+/Users/colinbird/cw1/objects/%2f(119):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(12):        HTML document text, ASCII text, with very long lines (377), with CRLF line terminators
+/Users/colinbird/cw1/objects/%2f(120):       ASCII text, with very long lines (588), with no line terminators
+/Users/colinbird/cw1/objects/%2f(121):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(122):       ASCII text, with very long lines (620), with no line terminators
+/Users/colinbird/cw1/objects/%2f(123):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(124):       ASCII text, with very long lines (556), with no line terminators
+/Users/colinbird/cw1/objects/%2f(125):       HTML document text, Unicode text, UTF-8 text, with very long lines (60984)
+/Users/colinbird/cw1/objects/%2f(126):       ASCII text, with very long lines (572), with no line terminators
+/Users/colinbird/cw1/objects/%2f(127):       HTML document text, ISO-8859 text, with very long lines (664), with CRLF, LF line terminators
+/Users/colinbird/cw1/objects/%2f(128):       HTML document text, Unicode text, UTF-8 text, with very long lines (715), with CRLF, LF line terminators
+/Users/colinbird/cw1/objects/%2f(129):       ASCII text, with very long lines (556), with no line terminators
+/Users/colinbird/cw1/objects/%2f(13):        HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(130):       ASCII text, with very long lines (600), with no line terminators
+/Users/colinbird/cw1/objects/%2f(131):       ASCII text, with very long lines (604), with no line terminators
+/Users/colinbird/cw1/objects/%2f(132):       HTML document text, ASCII text, with CRLF line terminators
+/Users/colinbird/cw1/objects/%2f(133):       ASCII text, with very long lines (604), with no line terminators
+/Users/colinbird/cw1/objects/%2f(134):       HTML document text, ASCII text, with CRLF line terminators
+/Users/colinbird/cw1/objects/%2f(135):       HTML document text, Non-ISO extended-ASCII text
+/Users/colinbird/cw1/objects/%2f(136):       ASCII text, with very long lines (576), with no line terminators
+/Users/colinbird/cw1/objects/%2f(137):       HTML document text, ISO-8859 text, with CRLF line terminators
+/Users/colinbird/cw1/objects/%2f(138):       ASCII text, with very long lines (564), with no line terminators
+/Users/colinbird/cw1/objects/%2f(139):       ASCII text, with very long lines (596), with no line terminators
+/Users/colinbird/cw1/objects/%2f(14):        ASCII text, with very long lines (580), with no line terminators
+/Users/colinbird/cw1/objects/%2f(140):       ASCII text, with very long lines (604), with no line terminators
+/Users/colinbird/cw1/objects/%2f(141):       ASCII text, with very long lines (572), with no line terminators
+/Users/colinbird/cw1/objects/%2f(142):       HTML document text, Non-ISO extended-ASCII text, with very long lines (394)
+/Users/colinbird/cw1/objects/%2f(143):       ASCII text, with very long lines (572), with no line terminators
+/Users/colinbird/cw1/objects/%2f(144):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(145):       HTML document text, Unicode text, UTF-8 text, with very long lines (545), with CRLF, LF line terminators
+/Users/colinbird/cw1/objects/%2f(146):       ASCII text, with very long lines (612), with no line terminators
+/Users/colinbird/cw1/objects/%2f(147):       HTML document text, Unicode text, UTF-8 text, with very long lines (1025), with CRLF, LF line terminators
+/Users/colinbird/cw1/objects/%2f(148):       ASCII text, with very long lines (624), with no line terminators
+/Users/colinbird/cw1/objects/%2f(149):       HTML document text, Unicode text, UTF-8 text
+/Users/colinbird/cw1/objects/%2f(15):        HTML document text, ASCII text, with CRLF line terminators
+/Users/colinbird/cw1/objects/%2f(150):       HTML document text, ASCII text, with very long lines (60813), with CRLF, LF line terminators
+/Users/colinbird/cw1/objects/%2f(151):       ASCII text, with very long lines (600), with no line terminators
+/Users/colinbird/cw1/objects/%2f(152):       ASCII text, with very long lines (568), with no line terminators
+/Users/colinbird/cw1/objects/%2f(153):       ASCII text, with very long lines (620), with no line terminators
+/Users/colinbird/cw1/objects/%2f(154):       HTML document text, Unicode text, UTF-8 text
+/Users/colinbird/cw1/objects/%2f(155):       ASCII text, with very long lines (608), with no line terminators
+/Users/colinbird/cw1/objects/%2f(156):       HTML document text, ASCII text, with CRLF, LF line terminators
+/Users/colinbird/cw1/objects/%2f(157):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(158):       HTML document text, ISO-8859 text, with very long lines (1762), with CRLF line terminators
+/Users/colinbird/cw1/objects/%2f(159):       ASCII text, with very long lines (608), with no line terminators
+/Users/colinbird/cw1/objects/%2f(16):        ASCII text, with very long lines (584), with no line terminators
+/Users/colinbird/cw1/objects/%2f(160):       ASCII text, with very long lines (564), with no line terminators
+/Users/colinbird/cw1/objects/%2f(161):       HTML document text, ASCII text, with CRLF, LF line terminators
+/Users/colinbird/cw1/objects/%2f(162):       ASCII text, with very long lines (600), with no line terminators
+/Users/colinbird/cw1/objects/%2f(163):       ASCII text, with very long lines (596), with no line terminators
+/Users/colinbird/cw1/objects/%2f(164):       ASCII text, with very long lines (608), with no line terminators
+/Users/colinbird/cw1/objects/%2f(165):       HTML document text, ASCII text, with CRLF line terminators
+/Users/colinbird/cw1/objects/%2f(166):       ASCII text, with very long lines (600), with no line terminators
+/Users/colinbird/cw1/objects/%2f(167):       HTML document text, ASCII text, with CRLF line terminators
+/Users/colinbird/cw1/objects/%2f(168):       ASCII text, with very long lines (596), with no line terminators
+/Users/colinbird/cw1/objects/%2f(169):       HTML document text, ASCII text, with CRLF line terminators
+/Users/colinbird/cw1/objects/%2f(17):        HTML document text, ISO-8859 text
+/Users/colinbird/cw1/objects/%2f(170):       HTML document text, ASCII text, with CRLF line terminators
+/Users/colinbird/cw1/objects/%2f(171):       HTML document text, ASCII text, with CRLF line terminators
+/Users/colinbird/cw1/objects/%2f(172):       ASCII text, with very long lines (600), with no line terminators
+/Users/colinbird/cw1/objects/%2f(173):       ASCII text, with very long lines (580), with no line terminators
+/Users/colinbird/cw1/objects/%2f(174):       ASCII text, with very long lines (604), with no line terminators
+/Users/colinbird/cw1/objects/%2f(175):       ASCII text, with very long lines (596), with no line terminators
+/Users/colinbird/cw1/objects/%2f(176):       ASCII text, with very long lines (584), with no line terminators
+/Users/colinbird/cw1/objects/%2f(177):       HTML document text, ASCII text, with very long lines (359)
+/Users/colinbird/cw1/objects/%2f(178):       HTML document text, Unicode text, UTF-8 text
+/Users/colinbird/cw1/objects/%2f(179):       ASCII text, with very long lines (596), with no line terminators
+/Users/colinbird/cw1/objects/%2f(18):        ASCII text, with very long lines (564), with no line terminators
+/Users/colinbird/cw1/objects/%2f(180):       HTML document text, ASCII text, with very long lines (838)
+/Users/colinbird/cw1/objects/%2f(181):       ASCII text, with no line terminators
+/Users/colinbird/cw1/objects/%2f(182):       ASCII text, with very long lines (600), with no line terminators
+/Users/colinbird/cw1/objects/%2f(183):       HTML document text, ASCII text, with very long lines (707)
+/Users/colinbird/cw1/objects/%2f(184):       ASCII text, with very long lines (616), with no line terminators
+/Users/colinbird/cw1/objects/%2f(185):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(186):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(187):       ASCII text, with very long lines (580), with no line terminators
+/Users/colinbird/cw1/objects/%2f(188):       ASCII text, with no line terminators
+/Users/colinbird/cw1/objects/%2f(189):       ASCII text, with very long lines (600), with no line terminators
+/Users/colinbird/cw1/objects/%2f(19):        ASCII text, with very long lines (608), with no line terminators
+/Users/colinbird/cw1/objects/%2f(190):       HTML document text, Unicode text, UTF-8 text, with very long lines (684)
+/Users/colinbird/cw1/objects/%2f(191):       ASCII text, with very long lines (612), with no line terminators
+/Users/colinbird/cw1/objects/%2f(192):       empty
+/Users/colinbird/cw1/objects/%2f(193):       ASCII text, with no line terminators
+/Users/colinbird/cw1/objects/%2f(194):       ASCII text, with very long lines (600), with no line terminators
+/Users/colinbird/cw1/objects/%2f(195):       ASCII text, with very long lines (584), with no line terminators
+/Users/colinbird/cw1/objects/%2f(196):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(197):       ASCII text, with very long lines (560), with no line terminators
+/Users/colinbird/cw1/objects/%2f(198):       ASCII text, with no line terminators
+/Users/colinbird/cw1/objects/%2f(199):       ASCII text, with very long lines (600), with no line terminators
+/Users/colinbird/cw1/objects/%2f(2):         ASCII text, with very long lines (560), with no line terminators
+/Users/colinbird/cw1/objects/%2f(20):        ASCII text, with very long lines (620), with no line terminators
+/Users/colinbird/cw1/objects/%2f(200):       ASCII text, with very long lines (604), with no line terminators
+/Users/colinbird/cw1/objects/%2f(201):       HTML document text, Unicode text, UTF-8 text
+/Users/colinbird/cw1/objects/%2f(202):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(203):       ASCII text, with very long lines (584), with no line terminators
+/Users/colinbird/cw1/objects/%2f(204):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(205):       ASCII text, with no line terminators
+/Users/colinbird/cw1/objects/%2f(206):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(207):       ASCII text, with very long lines (592), with no line terminators
+/Users/colinbird/cw1/objects/%2f(208):       ASCII text, with very long lines (560), with no line terminators
+/Users/colinbird/cw1/objects/%2f(209):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(21):        HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(210):       ASCII text, with very long lines (592), with no line terminators
+/Users/colinbird/cw1/objects/%2f(211):       ASCII text, with very long lines (592), with no line terminators
+/Users/colinbird/cw1/objects/%2f(212):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(213):       ASCII text, with very long lines (592), with no line terminators
+/Users/colinbird/cw1/objects/%2f(214):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(215):       HTML document text, Unicode text, UTF-8 text, with CRLF line terminators
+/Users/colinbird/cw1/objects/%2f(216):       ASCII text, with very long lines (596), with no line terminators
+/Users/colinbird/cw1/objects/%2f(217):       HTML document text, ASCII text, with very long lines (589)
+/Users/colinbird/cw1/objects/%2f(218):       ASCII text, with very long lines (596), with no line terminators
+/Users/colinbird/cw1/objects/%2f(219):       ASCII text, with very long lines (568), with no line terminators
+/Users/colinbird/cw1/objects/%2f(22):        HTML document text, ISO-8859 text, with very long lines (567), with CRLF line terminators
+/Users/colinbird/cw1/objects/%2f(220):       HTML document text, ASCII text, with very long lines (332)
+/Users/colinbird/cw1/objects/%2f(221):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(222):       ASCII text, with very long lines (568), with no line terminators
+/Users/colinbird/cw1/objects/%2f(223):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(224):       ASCII text, with very long lines (997), with no line terminators
+/Users/colinbird/cw1/objects/%2f(225):       ASCII text, with very long lines (1699), with no line terminators
+/Users/colinbird/cw1/objects/%2f(226):       Arhangel archive data
+/Users/colinbird/cw1/objects/%2f(227):       ASCII text, with very long lines (525), with no line terminators
+/Users/colinbird/cw1/objects/%2f(228):       HTML document text, Unicode text, UTF-8 text
+/Users/colinbird/cw1/objects/%2f(229):       ASCII text, with very long lines (1104), with no line terminators
+/Users/colinbird/cw1/objects/%2f(23):        HTML document text, ISO-8859 text, with very long lines (706), with CRLF, LF line terminators
+/Users/colinbird/cw1/objects/%2f(230):       ASCII text, with very long lines (1238), with no line terminators
+/Users/colinbird/cw1/objects/%2f(231):       HTML document text, ASCII text, with CRLF line terminators
+/Users/colinbird/cw1/objects/%2f(232):       HTML document text, ASCII text, with very long lines (425)
+/Users/colinbird/cw1/objects/%2f(233):       ASCII text, with very long lines (384), with no line terminators
+/Users/colinbird/cw1/objects/%2f(234):       ASCII text, with very long lines (313), with no line terminators
+/Users/colinbird/cw1/objects/%2f(235):       ASCII text, with very long lines (1072), with no line terminators
+/Users/colinbird/cw1/objects/%2f(236):       ASCII text, with no line terminators
+/Users/colinbird/cw1/objects/%2f(237):       HTML document text, Unicode text, UTF-8 text, with very long lines (809), with CRLF line terminators
+/Users/colinbird/cw1/objects/%2f(238):       ASCII text, with no line terminators
+/Users/colinbird/cw1/objects/%2f(239):       ASCII text, with very long lines (1365), with no line terminators
+/Users/colinbird/cw1/objects/%2f(24):        HTML document text, Unicode text, UTF-8 text
+/Users/colinbird/cw1/objects/%2f(240):       ASCII text, with very long lines (1425), with no line terminators
+/Users/colinbird/cw1/objects/%2f(241):       ASCII text, with very long lines (1544), with no line terminators
+/Users/colinbird/cw1/objects/%2f(242):       ASCII text, with very long lines (1285), with no line terminators
+/Users/colinbird/cw1/objects/%2f(243):       HTML document text, ASCII text, with CRLF line terminators
+/Users/colinbird/cw1/objects/%2f(244):       ASCII text, with very long lines (516), with no line terminators
+/Users/colinbird/cw1/objects/%2f(245):       ASCII text, with very long lines (983), with no line terminators
+/Users/colinbird/cw1/objects/%2f(246):       ASCII text, with very long lines (950), with no line terminators
+/Users/colinbird/cw1/objects/%2f(247):       ASCII text, with very long lines (962), with no line terminators
+/Users/colinbird/cw1/objects/%2f(248):       ASCII text, with very long lines (1494), with no line terminators
+/Users/colinbird/cw1/objects/%2f(249):       ASCII text, with very long lines (1279), with no line terminators
+/Users/colinbird/cw1/objects/%2f(25):        ASCII text, with very long lines (560), with no line terminators
+/Users/colinbird/cw1/objects/%2f(250):       ASCII text, with very long lines (1204), with no line terminators
+/Users/colinbird/cw1/objects/%2f(251):       ASCII text, with very long lines (1499), with no line terminators
+/Users/colinbird/cw1/objects/%2f(252):       ASCII text, with very long lines (1058), with no line terminators
+/Users/colinbird/cw1/objects/%2f(253):       ASCII text, with very long lines (608), with no line terminators
+/Users/colinbird/cw1/objects/%2f(254):       ASCII text, with very long lines (1245), with no line terminators
+/Users/colinbird/cw1/objects/%2f(255):       ASCII text, with very long lines (712), with no line terminators
+/Users/colinbird/cw1/objects/%2f(256):       ASCII text, with no line terminators
+/Users/colinbird/cw1/objects/%2f(257):       ASCII text, with no line terminators
+/Users/colinbird/cw1/objects/%2f(258):       ASCII text, with very long lines (555), with no line terminators
+/Users/colinbird/cw1/objects/%2f(259):       ASCII text, with very long lines (1832), with no line terminators
+/Users/colinbird/cw1/objects/%2f(26):        HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(260):       ASCII text, with very long lines (1151), with no line terminators
+/Users/colinbird/cw1/objects/%2f(261):       ASCII text, with very long lines (365), with no line terminators
+/Users/colinbird/cw1/objects/%2f(262):       ASCII text, with very long lines (877), with no line terminators
+/Users/colinbird/cw1/objects/%2f(263):       ASCII text, with very long lines (1175), with no line terminators
+/Users/colinbird/cw1/objects/%2f(264):       ASCII text, with very long lines (647), with no line terminators
+/Users/colinbird/cw1/objects/%2f(265):       HTML document text, ASCII text, with very long lines (1201)
+/Users/colinbird/cw1/objects/%2f(266):       HTML document text, ASCII text, with very long lines (501)
+/Users/colinbird/cw1/objects/%2f(267):       ASCII text, with very long lines (1325), with no line terminators
+/Users/colinbird/cw1/objects/%2f(268):       ASCII text, with very long lines (1929), with no line terminators
+/Users/colinbird/cw1/objects/%2f(269):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(27):        ASCII text, with very long lines (580), with no line terminators
+/Users/colinbird/cw1/objects/%2f(270):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(271):       ASCII text, with no line terminators
+/Users/colinbird/cw1/objects/%2f(272):       ASCII text, with very long lines (2017), with no line terminators
+/Users/colinbird/cw1/objects/%2f(273):       HTML document text, ASCII text, with CRLF line terminators
+/Users/colinbird/cw1/objects/%2f(274):       ASCII text, with very long lines (1184), with no line terminators
+/Users/colinbird/cw1/objects/%2f(275):       ASCII text, with very long lines (870), with no line terminators
+/Users/colinbird/cw1/objects/%2f(276):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(277):       HTML document text, ASCII text, with very long lines (301)
+/Users/colinbird/cw1/objects/%2f(278):       ASCII text, with very long lines (667), with no line terminators
+/Users/colinbird/cw1/objects/%2f(279):       ASCII text, with very long lines (689), with no line terminators
+/Users/colinbird/cw1/objects/%2f(28):        HTML document text, ASCII text, with CRLF line terminators
+/Users/colinbird/cw1/objects/%2f(280):       ASCII text, with very long lines (892), with no line terminators
+/Users/colinbird/cw1/objects/%2f(281):       ASCII text, with no line terminators
+/Users/colinbird/cw1/objects/%2f(282):       ASCII text, with very long lines (1091), with no line terminators
+/Users/colinbird/cw1/objects/%2f(283):       ASCII text, with no line terminators
+/Users/colinbird/cw1/objects/%2f(284):       HTML document text, ASCII text, with CRLF line terminators
+/Users/colinbird/cw1/objects/%2f(285):       ASCII text, with very long lines (986), with no line terminators
+/Users/colinbird/cw1/objects/%2f(286):       ASCII text, with very long lines (2015), with no line terminators
+/Users/colinbird/cw1/objects/%2f(287):       ASCII text, with very long lines (1951), with no line terminators
+/Users/colinbird/cw1/objects/%2f(288):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(289):       ASCII text, with very long lines (1312), with no line terminators
+/Users/colinbird/cw1/objects/%2f(29):        ASCII text, with very long lines (608), with no line terminators
+/Users/colinbird/cw1/objects/%2f(290):       ASCII text, with very long lines (757), with no line terminators
+/Users/colinbird/cw1/objects/%2f(291):       ASCII text, with very long lines (1712), with no line terminators
+/Users/colinbird/cw1/objects/%2f(292):       ASCII text, with no line terminators
+/Users/colinbird/cw1/objects/%2f(293):       ASCII text, with very long lines (1613), with no line terminators
+/Users/colinbird/cw1/objects/%2f(294):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(295):       HTML document text, ASCII text, with very long lines (559)
+/Users/colinbird/cw1/objects/%2f(296):       ASCII text, with very long lines (1534), with no line terminators
+/Users/colinbird/cw1/objects/%2f(297):       HTML document text, ASCII text, with very long lines (558)
+/Users/colinbird/cw1/objects/%2f(298):       ASCII text, with very long lines (1349), with no line terminators
+/Users/colinbird/cw1/objects/%2f(299):       HTML document text, ISO-8859 text, with very long lines (1884), with CRLF line terminators
+/Users/colinbird/cw1/objects/%2f(3):         ASCII text, with very long lines (604), with no line terminators
+/Users/colinbird/cw1/objects/%2f(30):        ASCII text, with very long lines (572), with no line terminators
+/Users/colinbird/cw1/objects/%2f(300):       ASCII text, with very long lines (1360), with no line terminators
+/Users/colinbird/cw1/objects/%2f(301):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(302):       HTML document text, ASCII text, with CRLF line terminators
+/Users/colinbird/cw1/objects/%2f(303):       HTML document text, ASCII text, with very long lines (1362)
+/Users/colinbird/cw1/objects/%2f(304):       HTML document text, ASCII text, with CRLF line terminators
+/Users/colinbird/cw1/objects/%2f(305):       ASCII text, with very long lines (1860), with no line terminators
+/Users/colinbird/cw1/objects/%2f(306):       ASCII text, with no line terminators
+/Users/colinbird/cw1/objects/%2f(307):       HTML document text, ASCII text, with very long lines (1362)
+/Users/colinbird/cw1/objects/%2f(308):       ASCII text, with very long lines (758), with no line terminators
+/Users/colinbird/cw1/objects/%2f(309):       HTML document text, Unicode text, UTF-8 text, with very long lines (650), with CRLF line terminators
+/Users/colinbird/cw1/objects/%2f(31):        ASCII text, with very long lines (604), with no line terminators
+/Users/colinbird/cw1/objects/%2f(310):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(311):       ASCII text, with no line terminators
+/Users/colinbird/cw1/objects/%2f(312):       ASCII text, with very long lines (1305), with no line terminators
+/Users/colinbird/cw1/objects/%2f(313):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(314):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(315):       HTML document text, ASCII text, with very long lines (404)
+/Users/colinbird/cw1/objects/%2f(316):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(317):       ASCII text, with very long lines (1349), with no line terminators
+/Users/colinbird/cw1/objects/%2f(318):       ASCII text, with very long lines (367), with no line terminators
+/Users/colinbird/cw1/objects/%2f(319):       ASCII text, with very long lines (1583), with no line terminators
+/Users/colinbird/cw1/objects/%2f(32):        HTML document text, ASCII text, with very long lines (409)
+/Users/colinbird/cw1/objects/%2f(320):       HTML document text, ISO-8859 text
+/Users/colinbird/cw1/objects/%2f(321):       HTML document text, Unicode text, UTF-8 text, with very long lines (553), with CRLF line terminators
+/Users/colinbird/cw1/objects/%2f(322):       ASCII text, with very long lines (449), with no line terminators
+/Users/colinbird/cw1/objects/%2f(323):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(324):       ASCII text, with no line terminators
+/Users/colinbird/cw1/objects/%2f(325):       HTML document text, ASCII text, with very long lines (604)
+/Users/colinbird/cw1/objects/%2f(326):       ASCII text, with very long lines (458), with no line terminators
+/Users/colinbird/cw1/objects/%2f(327):       ASCII text, with very long lines (999), with no line terminators
+/Users/colinbird/cw1/objects/%2f(328):       ASCII text, with very long lines (1349), with no line terminators
+/Users/colinbird/cw1/objects/%2f(329):       ASCII text, with very long lines (431), with no line terminators
+/Users/colinbird/cw1/objects/%2f(33):        HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(330):       ASCII text, with no line terminators
+/Users/colinbird/cw1/objects/%2f(331):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(332):       ASCII text, with no line terminators
+/Users/colinbird/cw1/objects/%2f(333):       ASCII text, with very long lines (578), with no line terminators
+/Users/colinbird/cw1/objects/%2f(334):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(335):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(336):       HTML document text, ASCII text, with CRLF line terminators
+/Users/colinbird/cw1/objects/%2f(337):       ASCII text, with very long lines (1231), with no line terminators
+/Users/colinbird/cw1/objects/%2f(338):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(339):       empty
+/Users/colinbird/cw1/objects/%2f(34):        ASCII text, with very long lines (568), with no line terminators
+/Users/colinbird/cw1/objects/%2f(340):       HTML document text, Unicode text, UTF-8 text
+/Users/colinbird/cw1/objects/%2f(341):       HTML document text, ASCII text, with CRLF, LF line terminators
+/Users/colinbird/cw1/objects/%2f(342):       HTML document text, ASCII text, with CRLF line terminators
+/Users/colinbird/cw1/objects/%2f(343):       ASCII text, with very long lines (733), with no line terminators
+/Users/colinbird/cw1/objects/%2f(344):       ASCII text, with very long lines (741), with no line terminators
+/Users/colinbird/cw1/objects/%2f(345):       ASCII text, with very long lines (1043), with no line terminators
+/Users/colinbird/cw1/objects/%2f(346):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(347):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(348):       ASCII text, with very long lines (1024), with no line terminators
+/Users/colinbird/cw1/objects/%2f(349):       HTML document text, ASCII text, with very long lines (702)
+/Users/colinbird/cw1/objects/%2f(35):        ASCII text, with very long lines (604), with no line terminators
+/Users/colinbird/cw1/objects/%2f(350):       ASCII text, with very long lines (1032), with no line terminators
+/Users/colinbird/cw1/objects/%2f(351):       HTML document text, ASCII text, with CRLF line terminators
+/Users/colinbird/cw1/objects/%2f(352):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(353):       HTML document text, Unicode text, UTF-8 text
+/Users/colinbird/cw1/objects/%2f(354):       ASCII text, with very long lines (427), with no line terminators
+/Users/colinbird/cw1/objects/%2f(355):       ASCII text, with no line terminators
+/Users/colinbird/cw1/objects/%2f(356):       ASCII text, with very long lines (339), with no line terminators
+/Users/colinbird/cw1/objects/%2f(357):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(358):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(359):       ASCII text, with very long lines (554), with no line terminators
+/Users/colinbird/cw1/objects/%2f(36):        ASCII text, with very long lines (576), with no line terminators
+/Users/colinbird/cw1/objects/%2f(360):       HTML document text, Unicode text, UTF-8 text, with very long lines (553), with CRLF line terminators
+/Users/colinbird/cw1/objects/%2f(361):       HTML document text, Unicode text, UTF-8 text, with very long lines (333)
+/Users/colinbird/cw1/objects/%2f(362):       ASCII text, with very long lines (1726), with no line terminators
+/Users/colinbird/cw1/objects/%2f(363):       ASCII text, with no line terminators
+/Users/colinbird/cw1/objects/%2f(364):       HTML document text, ASCII text, with very long lines (657)
+/Users/colinbird/cw1/objects/%2f(365):       ASCII text, with no line terminators
+/Users/colinbird/cw1/objects/%2f(366):       ASCII text, with very long lines (453), with no line terminators
+/Users/colinbird/cw1/objects/%2f(367):       HTML document text, ISO-8859 text
+/Users/colinbird/cw1/objects/%2f(368):       ASCII text, with very long lines (753), with no line terminators
+/Users/colinbird/cw1/objects/%2f(369):       ASCII text, with no line terminators
+/Users/colinbird/cw1/objects/%2f(37):        HTML document text, ASCII text, with very long lines (812)
+/Users/colinbird/cw1/objects/%2f(370):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(371):       ASCII text, with very long lines (840), with no line terminators
+/Users/colinbird/cw1/objects/%2f(372):       HTML document text, Unicode text, UTF-8 text
+/Users/colinbird/cw1/objects/%2f(373):       ASCII text, with very long lines (877), with no line terminators
+/Users/colinbird/cw1/objects/%2f(374):       HTML document text, ASCII text, with very long lines (998)
+/Users/colinbird/cw1/objects/%2f(375):       ASCII text, with very long lines (1419), with no line terminators
+/Users/colinbird/cw1/objects/%2f(376):       ASCII text, with very long lines (546), with no line terminators
+/Users/colinbird/cw1/objects/%2f(377):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(378):       ASCII text, with very long lines (1520), with no line terminators
+/Users/colinbird/cw1/objects/%2f(379):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(38):        ASCII text, with very long lines (604), with no line terminators
+/Users/colinbird/cw1/objects/%2f(380):       HTML document text, Unicode text, UTF-8 text, with very long lines (23159), with CRLF, LF line terminators
+/Users/colinbird/cw1/objects/%2f(381):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(382):       ASCII text, with no line terminators
+/Users/colinbird/cw1/objects/%2f(383):       ASCII text, with very long lines (1365), with no line terminators
+/Users/colinbird/cw1/objects/%2f(384):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(385):       HTML document text, ASCII text, with very long lines (604)
+/Users/colinbird/cw1/objects/%2f(386):       ASCII text, with no line terminators
+/Users/colinbird/cw1/objects/%2f(387):       ASCII text, with very long lines (1251), with no line terminators
+/Users/colinbird/cw1/objects/%2f(388):       ASCII text, with very long lines (700), with no line terminators
+/Users/colinbird/cw1/objects/%2f(389):       ASCII text, with very long lines (1557), with no line terminators
+/Users/colinbird/cw1/objects/%2f(39):        ASCII text, with very long lines (620), with no line terminators
+/Users/colinbird/cw1/objects/%2f(390):       ASCII text, with very long lines (2011), with no line terminators
+/Users/colinbird/cw1/objects/%2f(391):       ASCII text, with very long lines (2001), with no line terminators
+/Users/colinbird/cw1/objects/%2f(392):       HTML document text, Unicode text, UTF-8 text, with very long lines (945)
+/Users/colinbird/cw1/objects/%2f(393):       ASCII text, with very long lines (563), with no line terminators
+/Users/colinbird/cw1/objects/%2f(394):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(395):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(396):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(397):       ASCII text, with very long lines (999), with no line terminators
+/Users/colinbird/cw1/objects/%2f(398):       HTML document text, ASCII text, with very long lines (998)
+/Users/colinbird/cw1/objects/%2f(399):       XML 1.0 document text, Non-ISO extended-ASCII text
+/Users/colinbird/cw1/objects/%2f(4):         ASCII text, with very long lines (560), with no line terminators
+/Users/colinbird/cw1/objects/%2f(40):        HTML document text, ASCII text, with very long lines (332)
+/Users/colinbird/cw1/objects/%2f(400):       ASCII text, with very long lines (1365), with no line terminators
+/Users/colinbird/cw1/objects/%2f(401):       HTML document text, ISO-8859 text
+/Users/colinbird/cw1/objects/%2f(402):       ASCII text, with no line terminators
+/Users/colinbird/cw1/objects/%2f(403):       ASCII text, with very long lines (1394), with no line terminators
+/Users/colinbird/cw1/objects/%2f(404):       ASCII text, with very long lines (992), with no line terminators
+/Users/colinbird/cw1/objects/%2f(405):       ASCII text, with very long lines (1677), with no line terminators
+/Users/colinbird/cw1/objects/%2f(406):       ASCII text, with very long lines (593), with no line terminators
+/Users/colinbird/cw1/objects/%2f(407):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(408):       ASCII text, with very long lines (861), with no line terminators
+/Users/colinbird/cw1/objects/%2f(409):       HTML document text, Unicode text, UTF-8 text, with very long lines (945)
+/Users/colinbird/cw1/objects/%2f(41):        ASCII text, with very long lines (568), with no line terminators
+/Users/colinbird/cw1/objects/%2f(410):       HTML document text, Unicode text, UTF-8 text
+/Users/colinbird/cw1/objects/%2f(411):       ASCII text, with very long lines (1390), with no line terminators
+/Users/colinbird/cw1/objects/%2f(412):       ASCII text, with very long lines (1253), with no line terminators
+/Users/colinbird/cw1/objects/%2f(413):       HTML document text, ISO-8859 text
+/Users/colinbird/cw1/objects/%2f(414):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(415):       ASCII text, with very long lines (1061), with no line terminators
+/Users/colinbird/cw1/objects/%2f(416):       ASCII text, with very long lines (989), with no line terminators
+/Users/colinbird/cw1/objects/%2f(417):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(418):       ASCII text, with very long lines (1643), with no line terminators
+/Users/colinbird/cw1/objects/%2f(419):       ASCII text, with very long lines (1460), with no line terminators
+/Users/colinbird/cw1/objects/%2f(42):        ASCII text, with very long lines (592), with no line terminators
+/Users/colinbird/cw1/objects/%2f(420):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(421):       HTML document text, ASCII text, with very long lines (301)
+/Users/colinbird/cw1/objects/%2f(422):       empty
+/Users/colinbird/cw1/objects/%2f(423):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(424):       ASCII text, with very long lines (1772), with no line terminators
+/Users/colinbird/cw1/objects/%2f(425):       empty
+/Users/colinbird/cw1/objects/%2f(426):       ASCII text, with very long lines (1218), with no line terminators
+/Users/colinbird/cw1/objects/%2f(427):       ASCII text, with very long lines (1013), with no line terminators
+/Users/colinbird/cw1/objects/%2f(428):       ASCII text, with very long lines (2020), with no line terminators
+/Users/colinbird/cw1/objects/%2f(429):       ASCII text, with very long lines (877), with no line terminators
+/Users/colinbird/cw1/objects/%2f(43):        HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(430):       ASCII text, with no line terminators
+/Users/colinbird/cw1/objects/%2f(431):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(432):       HTML document text, ASCII text, with CRLF line terminators
+/Users/colinbird/cw1/objects/%2f(433):       ASCII text, with very long lines (1743), with no line terminators
+/Users/colinbird/cw1/objects/%2f(434):       ASCII text, with very long lines (1824), with no line terminators
+/Users/colinbird/cw1/objects/%2f(435):       ASCII text, with very long lines (691), with no line terminators
+/Users/colinbird/cw1/objects/%2f(436):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(437):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(438):       HTML document text, ASCII text, with CRLF line terminators
+/Users/colinbird/cw1/objects/%2f(439):       ASCII text, with very long lines (1847), with no line terminators
+/Users/colinbird/cw1/objects/%2f(44):        HTML document text, ASCII text, with very long lines (468)
+/Users/colinbird/cw1/objects/%2f(440):       ASCII text, with very long lines (1173), with no line terminators
+/Users/colinbird/cw1/objects/%2f(441):       ASCII text, with no line terminators
+/Users/colinbird/cw1/objects/%2f(442):       ASCII text, with very long lines (1576), with no line terminators
+/Users/colinbird/cw1/objects/%2f(443):       HTML document text, Unicode text, UTF-8 text, with very long lines (23159), with CRLF, LF line terminators
+/Users/colinbird/cw1/objects/%2f(444):       ASCII text, with very long lines (1745), with no line terminators
+/Users/colinbird/cw1/objects/%2f(445):       HTML document text, ISO-8859 text, with very long lines (885)
+/Users/colinbird/cw1/objects/%2f(446):       HTML document text, ASCII text, with CRLF line terminators
+/Users/colinbird/cw1/objects/%2f(447):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(448):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(449):       ASCII text, with very long lines (1926), with no line terminators
+/Users/colinbird/cw1/objects/%2f(45):        HTML document text, ASCII text, with very long lines (607), with CRLF line terminators
+/Users/colinbird/cw1/objects/%2f(450):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(451):       HTML document text, ASCII text, with very long lines (1201)
+/Users/colinbird/cw1/objects/%2f(452):       ASCII text, with very long lines (865), with no line terminators
+/Users/colinbird/cw1/objects/%2f(453):       HTML document text, ASCII text, with CRLF line terminators
+/Users/colinbird/cw1/objects/%2f(454):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(455):       HTML document text, ASCII text, with very long lines (1201)
+/Users/colinbird/cw1/objects/%2f(456):       HTML document text, Unicode text, UTF-8 text, with very long lines (399), with CRLF, LF line terminators
+/Users/colinbird/cw1/objects/%2f(457):       ASCII text, with very long lines (1939), with no line terminators
+/Users/colinbird/cw1/objects/%2f(458):       ASCII text, with no line terminators
+/Users/colinbird/cw1/objects/%2f(459):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(46):        HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(460):       ASCII text, with very long lines (778), with no line terminators
+/Users/colinbird/cw1/objects/%2f(461):       HTML document text, ASCII text, with very long lines (380)
+/Users/colinbird/cw1/objects/%2f(462):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(463):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(464):       ASCII text, with very long lines (1297), with no line terminators
+/Users/colinbird/cw1/objects/%2f(465):       ASCII text, with very long lines (966), with no line terminators
+/Users/colinbird/cw1/objects/%2f(466):       ASCII text, with very long lines (1124), with no line terminators
+/Users/colinbird/cw1/objects/%2f(467):       ASCII text, with very long lines (1509), with no line terminators
+/Users/colinbird/cw1/objects/%2f(468):       ASCII text, with very long lines (1363), with no line terminators
+/Users/colinbird/cw1/objects/%2f(469):       HTML document text, ASCII text, with CRLF line terminators
+/Users/colinbird/cw1/objects/%2f(47):        ASCII text, with very long lines (592), with no line terminators
+/Users/colinbird/cw1/objects/%2f(470):       ASCII text, with very long lines (501), with no line terminators
+/Users/colinbird/cw1/objects/%2f(471):       ASCII text, with very long lines (663), with no line terminators
+/Users/colinbird/cw1/objects/%2f(472):       ASCII text, with very long lines (1351), with no line terminators
+/Users/colinbird/cw1/objects/%2f(473):       ASCII text, with no line terminators
+/Users/colinbird/cw1/objects/%2f(474):       ASCII text, with very long lines (1524), with no line terminators
+/Users/colinbird/cw1/objects/%2f(475):       very short file (no magic)
+/Users/colinbird/cw1/objects/%2f(476):       ASCII text, with very long lines (721), with no line terminators
+/Users/colinbird/cw1/objects/%2f(477):       ASCII text, with very long lines (1108), with no line terminators
+/Users/colinbird/cw1/objects/%2f(478):       ASCII text, with very long lines (518), with no line terminators
+/Users/colinbird/cw1/objects/%2f(479):       HTML document text, Non-ISO extended-ASCII text, with very long lines (359), with LF, NEL line terminators
+/Users/colinbird/cw1/objects/%2f(48):        HTML document text, Unicode text, UTF-8 text, with very long lines (2909), with CRLF, LF line terminators
+/Users/colinbird/cw1/objects/%2f(480):       HTML document text, ASCII text, with CRLF line terminators
+/Users/colinbird/cw1/objects/%2f(481):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(482):       ASCII text, with very long lines (1114), with no line terminators
+/Users/colinbird/cw1/objects/%2f(483):       HTML document text, Unicode text, UTF-8 text, with very long lines (553), with CRLF line terminators
+/Users/colinbird/cw1/objects/%2f(484):       HTML document text, ASCII text, with very long lines (998)
+/Users/colinbird/cw1/objects/%2f(485):       HTML document text, ASCII text, with very long lines (2039), with CRLF line terminators
+/Users/colinbird/cw1/objects/%2f(486):       ASCII text, with no line terminators
+/Users/colinbird/cw1/objects/%2f(487):       ASCII text, with very long lines (862), with no line terminators
+/Users/colinbird/cw1/objects/%2f(488):       ASCII text, with very long lines (912), with no line terminators
+/Users/colinbird/cw1/objects/%2f(489):       ASCII text, with very long lines (880), with no line terminators
+/Users/colinbird/cw1/objects/%2f(49):        ASCII text, with very long lines (564), with no line terminators
+/Users/colinbird/cw1/objects/%2f(490):       ASCII text, with very long lines (662), with no line terminators
+/Users/colinbird/cw1/objects/%2f(491):       HTML document text, ASCII text, with very long lines (604)
+/Users/colinbird/cw1/objects/%2f(492):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(493):       ASCII text, with no line terminators
+/Users/colinbird/cw1/objects/%2f(494):       ASCII text, with very long lines (615), with no line terminators
+/Users/colinbird/cw1/objects/%2f(495):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(496):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(497):       HTML document text, ASCII text, with very long lines (783), with no line terminators
+/Users/colinbird/cw1/objects/%2f(498):       ASCII text, with very long lines (481), with no line terminators
+/Users/colinbird/cw1/objects/%2f(499):       ASCII text, with very long lines (1558), with no line terminators
+/Users/colinbird/cw1/objects/%2f(5):         ASCII text, with very long lines (572), with no line terminators
+/Users/colinbird/cw1/objects/%2f(50):        HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(500):       ASCII text, with very long lines (1381), with no line terminators
+/Users/colinbird/cw1/objects/%2f(501):       HTML document text, ASCII text, with very long lines (814)
+/Users/colinbird/cw1/objects/%2f(502):       ASCII text, with very long lines (1992), with no line terminators
+/Users/colinbird/cw1/objects/%2f(503):       HTML document text, ASCII text, with very long lines (603)
+/Users/colinbird/cw1/objects/%2f(504):       empty
+/Users/colinbird/cw1/objects/%2f(505):       ASCII text, with very long lines (524), with no line terminators
+/Users/colinbird/cw1/objects/%2f(506):       ASCII text, with very long lines (751), with no line terminators
+/Users/colinbird/cw1/objects/%2f(507):       ASCII text, with very long lines (612), with no line terminators
+/Users/colinbird/cw1/objects/%2f(508):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(509):       ASCII text, with no line terminators
+/Users/colinbird/cw1/objects/%2f(51):        ASCII text, with very long lines (588), with no line terminators
+/Users/colinbird/cw1/objects/%2f(510):       HTML document text, Non-ISO extended-ASCII text, with CRLF line terminators
+/Users/colinbird/cw1/objects/%2f(511):       HTML document text, ISO-8859 text
+/Users/colinbird/cw1/objects/%2f(512):       ASCII text, with very long lines (1080), with no line terminators
+/Users/colinbird/cw1/objects/%2f(513):       ASCII text, with very long lines (1013), with no line terminators
+/Users/colinbird/cw1/objects/%2f(514):       ASCII text, with no line terminators
+/Users/colinbird/cw1/objects/%2f(515):       ASCII text, with very long lines (1168), with no line terminators
+/Users/colinbird/cw1/objects/%2f(516):       HTML document text, ASCII text, with CRLF line terminators
+/Users/colinbird/cw1/objects/%2f(517):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(518):       ASCII text, with very long lines (1455), with no line terminators
+/Users/colinbird/cw1/objects/%2f(519):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(52):        ASCII text, with very long lines (592), with no line terminators
+/Users/colinbird/cw1/objects/%2f(520):       ASCII text, with very long lines (2023), with no line terminators
+/Users/colinbird/cw1/objects/%2f(521):       XML 1.0 document text, ISO-8859 text, with very long lines (3884), with CRLF, LF line terminators
+/Users/colinbird/cw1/objects/%2f(522):       ASCII text, with very long lines (1272), with no line terminators
+/Users/colinbird/cw1/objects/%2f(523):       ASCII text, with no line terminators
+/Users/colinbird/cw1/objects/%2f(524):       HTML document text, Unicode text, UTF-8 text, with very long lines (1953), with CRLF, LF line terminators
+/Users/colinbird/cw1/objects/%2f(525):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(526):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(527):       ASCII text, with very long lines (1353), with no line terminators
+/Users/colinbird/cw1/objects/%2f(528):       HTML document text, Unicode text, UTF-8 text, with very long lines (399), with CRLF, LF line terminators
+/Users/colinbird/cw1/objects/%2f(529):       ASCII text, with very long lines (423), with no line terminators
+/Users/colinbird/cw1/objects/%2f(53):        HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(530):       ASCII text, with very long lines (733), with no line terminators
+/Users/colinbird/cw1/objects/%2f(531):       ASCII text, with no line terminators
+/Users/colinbird/cw1/objects/%2f(532):       HTML document text, ASCII text, with CRLF line terminators
+/Users/colinbird/cw1/objects/%2f(533):       ASCII text, with no line terminators
+/Users/colinbird/cw1/objects/%2f(534):       ASCII text, with no line terminators
+/Users/colinbird/cw1/objects/%2f(535):       HTML document text, ASCII text, with CRLF line terminators
+/Users/colinbird/cw1/objects/%2f(536):       ASCII text, with very long lines (1668), with no line terminators
+/Users/colinbird/cw1/objects/%2f(537):       ASCII text, with very long lines (410), with no line terminators
+/Users/colinbird/cw1/objects/%2f(538):       HTML document text, ISO-8859 text
+/Users/colinbird/cw1/objects/%2f(539):       HTML document text, Unicode text, UTF-8 text
+/Users/colinbird/cw1/objects/%2f(54):        ASCII text, with very long lines (620), with no line terminators
+/Users/colinbird/cw1/objects/%2f(540):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(541):       ASCII text, with very long lines (375), with no line terminators
+/Users/colinbird/cw1/objects/%2f(542):       empty
+/Users/colinbird/cw1/objects/%2f(543):       ASCII text, with very long lines (1606), with no line terminators
+/Users/colinbird/cw1/objects/%2f(544):       ASCII text, with very long lines (595), with no line terminators
+/Users/colinbird/cw1/objects/%2f(545):       ASCII text, with very long lines (2023), with no line terminators
+/Users/colinbird/cw1/objects/%2f(546):       ASCII text, with very long lines (501), with no line terminators
+/Users/colinbird/cw1/objects/%2f(547):       ASCII text, with very long lines (1091), with no line terminators
+/Users/colinbird/cw1/objects/%2f(548):       ASCII text, with very long lines (341), with no line terminators
+/Users/colinbird/cw1/objects/%2f(549):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(55):        HTML document text, Unicode text, UTF-8 text, with very long lines (816), with CRLF, LF line terminators
+/Users/colinbird/cw1/objects/%2f(550):       ASCII text, with very long lines (629), with no line terminators
+/Users/colinbird/cw1/objects/%2f(551):       HTML document text, ASCII text, with very long lines (19392)
+/Users/colinbird/cw1/objects/%2f(552):       HTML document text, ASCII text, with CRLF line terminators
+/Users/colinbird/cw1/objects/%2f(553):       ASCII text, with very long lines (1938), with no line terminators
+/Users/colinbird/cw1/objects/%2f(554):       HTML document text, Unicode text, UTF-8 text, with CRLF, LF line terminators
+/Users/colinbird/cw1/objects/%2f(555):       ASCII text, with very long lines (434), with no line terminators
+/Users/colinbird/cw1/objects/%2f(556):       ASCII text, with very long lines (323), with no line terminators
+/Users/colinbird/cw1/objects/%2f(557):       ASCII text, with very long lines (836), with no line terminators
+/Users/colinbird/cw1/objects/%2f(558):       ASCII text, with no line terminators
+/Users/colinbird/cw1/objects/%2f(559):       ASCII text, with very long lines (669), with no line terminators
+/Users/colinbird/cw1/objects/%2f(56):        HTML document text, ASCII text, with CRLF line terminators
+/Users/colinbird/cw1/objects/%2f(560):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(561):       HTML document text, ASCII text, with very long lines (2039), with CRLF line terminators
+/Users/colinbird/cw1/objects/%2f(562):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(563):       HTML document text, ASCII text, with very long lines (814)
+/Users/colinbird/cw1/objects/%2f(564):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(565):       HTML document text, ISO-8859 text
+/Users/colinbird/cw1/objects/%2f(566):       ASCII text, with no line terminators
+/Users/colinbird/cw1/objects/%2f(567):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(568):       ASCII text, with very long lines (321), with no line terminators
+/Users/colinbird/cw1/objects/%2f(569):       ASCII text, with very long lines (1678), with no line terminators
+/Users/colinbird/cw1/objects/%2f(57):        ASCII text, with very long lines (592), with no line terminators
+/Users/colinbird/cw1/objects/%2f(570):       ASCII text, with very long lines (2023), with no line terminators
+/Users/colinbird/cw1/objects/%2f(571):       ASCII text, with very long lines (1396), with no line terminators
+/Users/colinbird/cw1/objects/%2f(572):       ASCII text, with very long lines (1530), with no line terminators
+/Users/colinbird/cw1/objects/%2f(573):       ASCII text, with very long lines (1308), with no line terminators
+/Users/colinbird/cw1/objects/%2f(574):       HTML document text, ASCII text, with very long lines (404)
+/Users/colinbird/cw1/objects/%2f(575):       HTML document text, ASCII text, with very long lines (1362)
+/Users/colinbird/cw1/objects/%2f(576):       ASCII text, with very long lines (1279), with no line terminators
+/Users/colinbird/cw1/objects/%2f(577):       ASCII text, with very long lines (704), with no line terminators
+/Users/colinbird/cw1/objects/%2f(578):       HTML document text, Unicode text, UTF-8 text, with very long lines (333)
+/Users/colinbird/cw1/objects/%2f(579):       ASCII text, with very long lines (819), with no line terminators
+/Users/colinbird/cw1/objects/%2f(58):        HTML document text, Non-ISO extended-ASCII text, with very long lines (952)
+/Users/colinbird/cw1/objects/%2f(580):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(581):       ASCII text, with very long lines (1080), with no line terminators
+/Users/colinbird/cw1/objects/%2f(582):       ASCII text, with very long lines (709), with no line terminators
+/Users/colinbird/cw1/objects/%2f(583):       ASCII text, with very long lines (562), with no line terminators
+/Users/colinbird/cw1/objects/%2f(584):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(585):       HTML document text, Unicode text, UTF-8 text, with very long lines (945)
+/Users/colinbird/cw1/objects/%2f(586):       ASCII text, with very long lines (1108), with no line terminators
+/Users/colinbird/cw1/objects/%2f(587):       ASCII text, with no line terminators
+/Users/colinbird/cw1/objects/%2f(588):       ASCII text, with very long lines (1646), with no line terminators
+/Users/colinbird/cw1/objects/%2f(589):       HTML document text, ASCII text, with CRLF line terminators
+/Users/colinbird/cw1/objects/%2f(59):        HTML document text, Unicode text, UTF-8 text, with very long lines (23653), with CRLF, LF line terminators
+/Users/colinbird/cw1/objects/%2f(590):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(591):       ASCII text, with no line terminators
+/Users/colinbird/cw1/objects/%2f(592):       ASCII text, with very long lines (1873), with no line terminators
+/Users/colinbird/cw1/objects/%2f(593):       ASCII text, with very long lines (1395), with no line terminators
+/Users/colinbird/cw1/objects/%2f(594):       HTML document text, Unicode text, UTF-8 text, with very long lines (23159), with CRLF, LF line terminators
+/Users/colinbird/cw1/objects/%2f(595):       HTML document text, Non-ISO extended-ASCII text, with very long lines (818), with LF, NEL line terminators
+/Users/colinbird/cw1/objects/%2f(596):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(597):       ASCII text, with very long lines (1240), with no line terminators
+/Users/colinbird/cw1/objects/%2f(598):       HTML document text, Unicode text, UTF-8 text, with CRLF line terminators
+/Users/colinbird/cw1/objects/%2f(599):       HTML document text, ISO-8859 text, with CRLF line terminators
+/Users/colinbird/cw1/objects/%2f(6):         ASCII text, with very long lines (612), with no line terminators
+/Users/colinbird/cw1/objects/%2f(60):        ASCII text, with very long lines (600), with no line terminators
+/Users/colinbird/cw1/objects/%2f(600):       HTML document text, Unicode text, UTF-8 text, with very long lines (333)
+/Users/colinbird/cw1/objects/%2f(601):       ASCII text, with very long lines (819), with no line terminators
+/Users/colinbird/cw1/objects/%2f(602):       ASCII text, with very long lines (602), with no line terminators
+/Users/colinbird/cw1/objects/%2f(603):       ASCII text, with very long lines (984), with no line terminators
+/Users/colinbird/cw1/objects/%2f(604):       ASCII text, with very long lines (934), with no line terminators
+/Users/colinbird/cw1/objects/%2f(605):       ASCII text, with very long lines (819), with no line terminators
+/Users/colinbird/cw1/objects/%2f(606):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(607):       ASCII text, with very long lines (834), with no line terminators
+/Users/colinbird/cw1/objects/%2f(608):       ASCII text, with no line terminators
+/Users/colinbird/cw1/objects/%2f(609):       ASCII text, with very long lines (1421), with no line terminators
+/Users/colinbird/cw1/objects/%2f(61):        ASCII text, with very long lines (624), with no line terminators
+/Users/colinbird/cw1/objects/%2f(610):       ASCII text, with very long lines (975), with no line terminators
+/Users/colinbird/cw1/objects/%2f(611):       HTML document text, ASCII text, with CRLF line terminators
+/Users/colinbird/cw1/objects/%2f(612):       ASCII text, with very long lines (371), with no line terminators
+/Users/colinbird/cw1/objects/%2f(613):       ASCII text, with very long lines (665), with no line terminators
+/Users/colinbird/cw1/objects/%2f(614):       HTML document text, ASCII text, with CRLF line terminators
+/Users/colinbird/cw1/objects/%2f(615):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(616):       ASCII text, with very long lines (1579), with no line terminators
+/Users/colinbird/cw1/objects/%2f(617):       HTML document text, Unicode text, UTF-8 text, with very long lines (333)
+/Users/colinbird/cw1/objects/%2f(618):       ASCII text, with no line terminators
+/Users/colinbird/cw1/objects/%2f(619):       ASCII text, with very long lines (1125), with no line terminators
+/Users/colinbird/cw1/objects/%2f(62):        very short file (no magic)
+/Users/colinbird/cw1/objects/%2f(620):       ASCII text, with very long lines (1249), with no line terminators
+/Users/colinbird/cw1/objects/%2f(621):       ASCII text, with very long lines (1315), with no line terminators
+/Users/colinbird/cw1/objects/%2f(622):       ASCII text, with no line terminators
+/Users/colinbird/cw1/objects/%2f(623):       ASCII text, with very long lines (1672), with no line terminators
+/Users/colinbird/cw1/objects/%2f(624):       ASCII text, with very long lines (1350), with no line terminators
+/Users/colinbird/cw1/objects/%2f(625):       HTML document text, ASCII text, with very long lines (521)
+/Users/colinbird/cw1/objects/%2f(626):       HTML document text, ISO-8859 text
+/Users/colinbird/cw1/objects/%2f(627):       ASCII text, with very long lines (1827), with no line terminators
+/Users/colinbird/cw1/objects/%2f(628):       HTML document text, ASCII text, with very long lines (397)
+/Users/colinbird/cw1/objects/%2f(629):       very short file (no magic)
+/Users/colinbird/cw1/objects/%2f(63):        ASCII text, with very long lines (584), with no line terminators
+/Users/colinbird/cw1/objects/%2f(630):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(631):       ASCII text, with very long lines (1336), with no line terminators
+/Users/colinbird/cw1/objects/%2f(632):       HTML document text, ISO-8859 text
+/Users/colinbird/cw1/objects/%2f(633):       HTML document text, ASCII text, with CRLF line terminators
+/Users/colinbird/cw1/objects/%2f(634):       ASCII text, with no line terminators
+/Users/colinbird/cw1/objects/%2f(635):       ASCII text, with very long lines (373), with no line terminators
+/Users/colinbird/cw1/objects/%2f(636):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(637):       ASCII text, with very long lines (1265), with no line terminators
+/Users/colinbird/cw1/objects/%2f(638):       HTML document text, ASCII text, with CRLF line terminators
+/Users/colinbird/cw1/objects/%2f(639):       ASCII text, with very long lines (430), with no line terminators
+/Users/colinbird/cw1/objects/%2f(64):        HTML document text, ASCII text, with CRLF, LF line terminators
+/Users/colinbird/cw1/objects/%2f(640):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(641):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(642):       ASCII text, with very long lines (487), with no line terminators
+/Users/colinbird/cw1/objects/%2f(643):       ASCII text, with very long lines (831), with no line terminators
+/Users/colinbird/cw1/objects/%2f(644):       ASCII text, with very long lines (1973), with no line terminators
+/Users/colinbird/cw1/objects/%2f(645):       ASCII text, with very long lines (1539), with no line terminators
+/Users/colinbird/cw1/objects/%2f(646):       HTML document text, ASCII text, with very long lines (782), with no line terminators
+/Users/colinbird/cw1/objects/%2f(647):       ASCII text, with very long lines (1578), with no line terminators
+/Users/colinbird/cw1/objects/%2f(648):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(649):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(65):        ASCII text, with very long lines (600), with no line terminators
+/Users/colinbird/cw1/objects/%2f(650):       ASCII text, with very long lines (621), with no line terminators
+/Users/colinbird/cw1/objects/%2f(651):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(652):       ASCII text, with very long lines (1386), with no line terminators
+/Users/colinbird/cw1/objects/%2f(653):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(654):       ASCII text, with very long lines (2007), with no line terminators
+/Users/colinbird/cw1/objects/%2f(655):       HTML document text, Unicode text, UTF-8 text
+/Users/colinbird/cw1/objects/%2f(656):       XML 1.0 document text, Non-ISO extended-ASCII text
+/Users/colinbird/cw1/objects/%2f(657):       ASCII text, with very long lines (1287), with no line terminators
+/Users/colinbird/cw1/objects/%2f(658):       ASCII text, with no line terminators
+/Users/colinbird/cw1/objects/%2f(659):       ASCII text, with very long lines (1053), with no line terminators
+/Users/colinbird/cw1/objects/%2f(66):        ASCII text, with very long lines (624), with no line terminators
+/Users/colinbird/cw1/objects/%2f(660):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(661):       ASCII text, with very long lines (672), with no line terminators
+/Users/colinbird/cw1/objects/%2f(662):       ASCII text, with very long lines (1679), with no line terminators
+/Users/colinbird/cw1/objects/%2f(663):       HTML document text, ASCII text, with very long lines (2039), with CRLF line terminators
+/Users/colinbird/cw1/objects/%2f(664):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(665):       XML 1.0 document text, Non-ISO extended-ASCII text, with very long lines (741), with LF, NEL line terminators
+/Users/colinbird/cw1/objects/%2f(666):       ASCII text, with very long lines (1679), with no line terminators
+/Users/colinbird/cw1/objects/%2f(667):       HTML document text, Unicode text, UTF-8 text, with very long lines (1953), with CRLF, LF line terminators
+/Users/colinbird/cw1/objects/%2f(668):       ASCII text, with very long lines (631), with no line terminators
+/Users/colinbird/cw1/objects/%2f(669):       ASCII text, with very long lines (1679), with no line terminators
+/Users/colinbird/cw1/objects/%2f(67):        HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(670):       ASCII text, with very long lines (533), with no line terminators
+/Users/colinbird/cw1/objects/%2f(671):       ASCII text, with very long lines (1806), with no line terminators
+/Users/colinbird/cw1/objects/%2f(672):       ASCII text, with very long lines (1319), with no line terminators
+/Users/colinbird/cw1/objects/%2f(673):       HTML document text, Unicode text, UTF-8 text
+/Users/colinbird/cw1/objects/%2f(674):       ASCII text, with very long lines (1921), with no line terminators
+/Users/colinbird/cw1/objects/%2f(675):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(676):       HTML document text, Unicode text, UTF-8 text, with very long lines (1953), with CRLF, LF line terminators
+/Users/colinbird/cw1/objects/%2f(677):       ASCII text, with very long lines (535), with no line terminators
+/Users/colinbird/cw1/objects/%2f(678):       ASCII text, with very long lines (1145), with no line terminators
+/Users/colinbird/cw1/objects/%2f(679):       HTML document text, ASCII text, with very long lines (1362)
+/Users/colinbird/cw1/objects/%2f(68):        ASCII text, with very long lines (612), with no line terminators
+/Users/colinbird/cw1/objects/%2f(680):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(681):       ASCII text, with very long lines (1570), with no line terminators
+/Users/colinbird/cw1/objects/%2f(682):       HTML document text, ASCII text, with very long lines (702)
+/Users/colinbird/cw1/objects/%2f(683):       HTML document text, Unicode text, UTF-8 text
+/Users/colinbird/cw1/objects/%2f(684):       ASCII text, with very long lines (1676), with no line terminators
+/Users/colinbird/cw1/objects/%2f(685):       ASCII text, with very long lines (657), with no line terminators
+/Users/colinbird/cw1/objects/%2f(686):       ASCII text, with no line terminators
+/Users/colinbird/cw1/objects/%2f(687):       HTML document text, Unicode text, UTF-8 text, with very long lines (650), with CRLF line terminators
+/Users/colinbird/cw1/objects/%2f(688):       ASCII text, with very long lines (1457), with no line terminators
+/Users/colinbird/cw1/objects/%2f(689):       ASCII text, with very long lines (1653), with no line terminators
+/Users/colinbird/cw1/objects/%2f(69):        exported SGML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(690):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(691):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(692):       HTML document text, Non-ISO extended-ASCII text, with very long lines (330), with LF, NEL line terminators
+/Users/colinbird/cw1/objects/%2f(693):       ASCII text, with no line terminators
+/Users/colinbird/cw1/objects/%2f(694):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(695):       ASCII text, with very long lines (1109), with no line terminators
+/Users/colinbird/cw1/objects/%2f(696):       ASCII text, with very long lines (1163), with no line terminators
+/Users/colinbird/cw1/objects/%2f(697):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(698):       HTML document text, Unicode text, UTF-8 text
+/Users/colinbird/cw1/objects/%2f(699):       ASCII text, with very long lines (516), with no line terminators
+/Users/colinbird/cw1/objects/%2f(7):         HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(70):        very short file (no magic)
+/Users/colinbird/cw1/objects/%2f(700):       ASCII text, with very long lines (946), with no line terminators
+/Users/colinbird/cw1/objects/%2f(701):       HTML document text, ASCII text, with very long lines (1362)
+/Users/colinbird/cw1/objects/%2f(702):       HTML document text, ASCII text, with very long lines (858)
+/Users/colinbird/cw1/objects/%2f(703):       ASCII text, with very long lines (1454), with no line terminators
+/Users/colinbird/cw1/objects/%2f(704):       ASCII text, with very long lines (955), with no line terminators
+/Users/colinbird/cw1/objects/%2f(705):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(706):       ASCII text, with very long lines (955), with no line terminators
+/Users/colinbird/cw1/objects/%2f(707):       Unicode text, UTF-8 text, with no line terminators
+/Users/colinbird/cw1/objects/%2f(708):       ASCII text, with very long lines (1230), with no line terminators
+/Users/colinbird/cw1/objects/%2f(709):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(71):        ASCII text, with very long lines (584), with no line terminators
+/Users/colinbird/cw1/objects/%2f(710):       ASCII text, with very long lines (955), with no line terminators
+/Users/colinbird/cw1/objects/%2f(711):       ASCII text, with very long lines (1321), with no line terminators
+/Users/colinbird/cw1/objects/%2f(712):       HTML document text, Unicode text, UTF-8 text, with very long lines (23159), with CRLF, LF line terminators
+/Users/colinbird/cw1/objects/%2f(713):       ASCII text, with very long lines (419), with no line terminators
+/Users/colinbird/cw1/objects/%2f(714):       ASCII text, with no line terminators
+/Users/colinbird/cw1/objects/%2f(715):       ASCII text, with very long lines (1913), with no line terminators
+/Users/colinbird/cw1/objects/%2f(716):       ASCII text, with very long lines (713), with no line terminators
+/Users/colinbird/cw1/objects/%2f(717):       ASCII text, with very long lines (1083), with no line terminators
+/Users/colinbird/cw1/objects/%2f(718):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(719):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(72):        ASCII text, with very long lines (620), with no line terminators
+/Users/colinbird/cw1/objects/%2f(720):       ASCII text, with very long lines (1966), with no line terminators
+/Users/colinbird/cw1/objects/%2f(721):       HTML document text, Unicode text, UTF-8 text
+/Users/colinbird/cw1/objects/%2f(722):       ASCII text, with very long lines (1113), with no line terminators
+/Users/colinbird/cw1/objects/%2f(723):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(724):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(725):       ASCII text, with very long lines (1510), with no line terminators
+/Users/colinbird/cw1/objects/%2f(726):       ASCII text, with very long lines (1895), with no line terminators
+/Users/colinbird/cw1/objects/%2f(727):       ASCII text, with very long lines (718), with no line terminators
+/Users/colinbird/cw1/objects/%2f(728):       ASCII text, with very long lines (1407), with no line terminators
+/Users/colinbird/cw1/objects/%2f(729):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(73):        HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(730):       HTML document text, ASCII text, with very long lines (702)
+/Users/colinbird/cw1/objects/%2f(731):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(732):       ASCII text, with very long lines (1917), with no line terminators
+/Users/colinbird/cw1/objects/%2f(733):       ASCII text, with very long lines (724), with no line terminators
+/Users/colinbird/cw1/objects/%2f(734):       ASCII text, with very long lines (1151), with no line terminators
+/Users/colinbird/cw1/objects/%2f(735):       ASCII text, with very long lines (1113), with no line terminators
+/Users/colinbird/cw1/objects/%2f(736):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(737):       ASCII text, with very long lines (826), with no line terminators
+/Users/colinbird/cw1/objects/%2f(738):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(739):       HTML document text, Unicode text, UTF-8 text, with very long lines (1953), with CRLF, LF line terminators
+/Users/colinbird/cw1/objects/%2f(74):        exported SGML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(740):       HTML document text, ASCII text, with CRLF, LF line terminators
+/Users/colinbird/cw1/objects/%2f(741):       ASCII text, with very long lines (711), with no line terminators
+/Users/colinbird/cw1/objects/%2f(742):       ASCII text, with no line terminators
+/Users/colinbird/cw1/objects/%2f(743):       XML 1.0 document text, Non-ISO extended-ASCII text, with very long lines (741), with LF, NEL line terminators
+/Users/colinbird/cw1/objects/%2f(744):       HTML document text, Unicode text, UTF-8 text, with very long lines (23159), with CRLF, LF line terminators
+/Users/colinbird/cw1/objects/%2f(745):       HTML document text, ASCII text, with very long lines (948), with CRLF, LF line terminators
+/Users/colinbird/cw1/objects/%2f(746):       ASCII text, with very long lines (1536), with no line terminators
+/Users/colinbird/cw1/objects/%2f(747):       HTML document text, ASCII text, with very long lines (518)
+/Users/colinbird/cw1/objects/%2f(748):       ASCII text, with no line terminators
+/Users/colinbird/cw1/objects/%2f(749):       HTML document text, ASCII text, with CRLF line terminators
+/Users/colinbird/cw1/objects/%2f(75):        HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(750):       ASCII text, with very long lines (1239), with no line terminators
+/Users/colinbird/cw1/objects/%2f(751):       HTML document text, ASCII text, with very long lines (448)
+/Users/colinbird/cw1/objects/%2f(752):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(753):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(754):       ASCII text, with very long lines (1779), with no line terminators
+/Users/colinbird/cw1/objects/%2f(755):       ASCII text, with very long lines (959), with no line terminators
+/Users/colinbird/cw1/objects/%2f(756):       ASCII text, with very long lines (1475), with no line terminators
+/Users/colinbird/cw1/objects/%2f(757):       ASCII text, with very long lines (1774), with no line terminators
+/Users/colinbird/cw1/objects/%2f(758):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(759):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(76):        HTML document text, Unicode text, UTF-8 text, with CRLF line terminators
+/Users/colinbird/cw1/objects/%2f(760):       ASCII text, with very long lines (913), with no line terminators
+/Users/colinbird/cw1/objects/%2f(761):       ASCII text, with very long lines (1969), with no line terminators
+/Users/colinbird/cw1/objects/%2f(762):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(763):       ASCII text, with very long lines (1985), with no line terminators
+/Users/colinbird/cw1/objects/%2f(764):       ASCII text, with very long lines (959), with no line terminators
+/Users/colinbird/cw1/objects/%2f(765):       ASCII text, with very long lines (1574), with no line terminators
+/Users/colinbird/cw1/objects/%2f(766):       ASCII text, with very long lines (2011), with no line terminators
+/Users/colinbird/cw1/objects/%2f(767):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(768):       ASCII text, with very long lines (1438), with no line terminators
+/Users/colinbird/cw1/objects/%2f(769):       ASCII text, with very long lines (1780), with no line terminators
+/Users/colinbird/cw1/objects/%2f(77):        HTML document text, ASCII text, with very long lines (26709)
+/Users/colinbird/cw1/objects/%2f(770):       ASCII text, with no line terminators
+/Users/colinbird/cw1/objects/%2f(771):       HTML document text, ASCII text, with CRLF line terminators
+/Users/colinbird/cw1/objects/%2f(772):       ASCII text, with very long lines (766), with no line terminators
+/Users/colinbird/cw1/objects/%2f(773):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(774):       ASCII text, with very long lines (1498), with no line terminators
+/Users/colinbird/cw1/objects/%2f(775):       ASCII text, with very long lines (1373), with no line terminators
+/Users/colinbird/cw1/objects/%2f(776):       ASCII text, with very long lines (959), with no line terminators
+/Users/colinbird/cw1/objects/%2f(777):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(778):       ASCII text, with very long lines (1317), with no line terminators
+/Users/colinbird/cw1/objects/%2f(779):       ASCII text, with very long lines (1337), with no line terminators
+/Users/colinbird/cw1/objects/%2f(78):        ASCII text, with very long lines (596), with no line terminators
+/Users/colinbird/cw1/objects/%2f(780):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(781):       ASCII text, with no line terminators
+/Users/colinbird/cw1/objects/%2f(782):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(783):       ASCII text, with very long lines (1605), with no line terminators
+/Users/colinbird/cw1/objects/%2f(784):       HTML document text, Unicode text, UTF-8 text, with very long lines (399), with CRLF, LF line terminators
+/Users/colinbird/cw1/objects/%2f(785):       ASCII text, with very long lines (1494), with no line terminators
+/Users/colinbird/cw1/objects/%2f(786):       HTML document text, Unicode text, UTF-8 text
+/Users/colinbird/cw1/objects/%2f(787):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(788):       ASCII text, with very long lines (1337), with no line terminators
+/Users/colinbird/cw1/objects/%2f(789):       ASCII text, with very long lines (778), with no line terminators
+/Users/colinbird/cw1/objects/%2f(79):        ASCII text, with very long lines (592), with no line terminators
+/Users/colinbird/cw1/objects/%2f(790):       HTML document text, Unicode text, UTF-8 text, with very long lines (809), with CRLF line terminators
+/Users/colinbird/cw1/objects/%2f(791):       ASCII text, with no line terminators
+/Users/colinbird/cw1/objects/%2f(792):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(793):       HTML document text, ASCII text, with very long lines (462)
+/Users/colinbird/cw1/objects/%2f(794):       ASCII text, with very long lines (1621), with no line terminators
+/Users/colinbird/cw1/objects/%2f(795):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(796):       ASCII text, with very long lines (1531), with no line terminators
+/Users/colinbird/cw1/objects/%2f(797):       ASCII text, with very long lines (391), with no line terminators
+/Users/colinbird/cw1/objects/%2f(798):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(799):       ASCII text, with very long lines (822), with no line terminators
+/Users/colinbird/cw1/objects/%2f(8):         ASCII text, with very long lines (560), with no line terminators
+/Users/colinbird/cw1/objects/%2f(80):        ASCII text, with very long lines (584), with no line terminators
+/Users/colinbird/cw1/objects/%2f(800):       ASCII text, with very long lines (1459), with no line terminators
+/Users/colinbird/cw1/objects/%2f(801):       ASCII text, with very long lines (815), with no line terminators
+/Users/colinbird/cw1/objects/%2f(802):       ASCII text, with no line terminators
+/Users/colinbird/cw1/objects/%2f(803):       ASCII text, with very long lines (1498), with no line terminators
+/Users/colinbird/cw1/objects/%2f(804):       ASCII text, with very long lines (770), with no line terminators
+/Users/colinbird/cw1/objects/%2f(805):       HTML document text, Unicode text, UTF-8 text, with very long lines (454)
+/Users/colinbird/cw1/objects/%2f(806):       HTML document text, ASCII text, with CRLF, LF line terminators
+/Users/colinbird/cw1/objects/%2f(807):       ASCII text, with very long lines (733), with no line terminators
+/Users/colinbird/cw1/objects/%2f(808):       ASCII text, with no line terminators
+/Users/colinbird/cw1/objects/%2f(809):       ASCII text, with no line terminators
+/Users/colinbird/cw1/objects/%2f(81):        ASCII text, with very long lines (624), with no line terminators
+/Users/colinbird/cw1/objects/%2f(810):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(811):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(812):       ASCII text, with very long lines (330), with no line terminators
+/Users/colinbird/cw1/objects/%2f(813):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(814):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(815):       HTML document text, ASCII text, with very long lines (1362)
+/Users/colinbird/cw1/objects/%2f(816):       ASCII text, with very long lines (437), with no line terminators
+/Users/colinbird/cw1/objects/%2f(817):       ASCII text, with no line terminators
+/Users/colinbird/cw1/objects/%2f(818):       ASCII text, with very long lines (592), with no line terminators
+/Users/colinbird/cw1/objects/%2f(819):       HTML document text, ASCII text, with very long lines (702)
+/Users/colinbird/cw1/objects/%2f(82):        ASCII text, with very long lines (576), with no line terminators
+/Users/colinbird/cw1/objects/%2f(820):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(821):       ASCII text, with very long lines (592), with no line terminators
+/Users/colinbird/cw1/objects/%2f(822):       ASCII text, with no line terminators
+/Users/colinbird/cw1/objects/%2f(823):       ASCII text, with very long lines (1764), with no line terminators
+/Users/colinbird/cw1/objects/%2f(824):       ASCII text, with very long lines (1899), with no line terminators
+/Users/colinbird/cw1/objects/%2f(825):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(826):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(827):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(828):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(829):       ASCII text, with very long lines (2032), with no line terminators
+/Users/colinbird/cw1/objects/%2f(83):        ASCII text, with very long lines (612), with no line terminators
+/Users/colinbird/cw1/objects/%2f(830):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(831):       ASCII text, with very long lines (620), with no line terminators
+/Users/colinbird/cw1/objects/%2f(832):       ASCII text, with very long lines (1715), with no line terminators
+/Users/colinbird/cw1/objects/%2f(833):       ASCII text, with very long lines (592), with no line terminators
+/Users/colinbird/cw1/objects/%2f(834):       HTML document text, ASCII text, with CRLF line terminators
+/Users/colinbird/cw1/objects/%2f(835):       ASCII text, with no line terminators
+/Users/colinbird/cw1/objects/%2f(836):       ASCII text, with very long lines (1696), with no line terminators
+/Users/colinbird/cw1/objects/%2f(837):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(838):       ASCII text, with very long lines (1054), with no line terminators
+/Users/colinbird/cw1/objects/%2f(839):       HTML document text, ASCII text, with CRLF line terminators
+/Users/colinbird/cw1/objects/%2f(84):        HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(840):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(841):       HTML document text, ASCII text, with CRLF line terminators
+/Users/colinbird/cw1/objects/%2f(842):       HTML document text, Unicode text, UTF-8 text
+/Users/colinbird/cw1/objects/%2f(843):       ASCII text, with very long lines (615), with no line terminators
+/Users/colinbird/cw1/objects/%2f(844):       ASCII text, with very long lines (1676), with no line terminators
+/Users/colinbird/cw1/objects/%2f(845):       ASCII text, with no line terminators
+/Users/colinbird/cw1/objects/%2f(846):       HTML document text, ASCII text, with very long lines (2039), with CRLF line terminators
+/Users/colinbird/cw1/objects/%2f(847):       HTML document text, ASCII text, with very long lines (301)
+/Users/colinbird/cw1/objects/%2f(848):       ASCII text, with very long lines (456), with no line terminators
+/Users/colinbird/cw1/objects/%2f(849):       HTML document text, ASCII text, with very long lines (998)
+/Users/colinbird/cw1/objects/%2f(85):        ASCII text, with very long lines (592), with no line terminators
+/Users/colinbird/cw1/objects/%2f(850):       ASCII text, with no line terminators
+/Users/colinbird/cw1/objects/%2f(851):       ASCII text, with very long lines (1895), with no line terminators
+/Users/colinbird/cw1/objects/%2f(852):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(853):       HTML document text, Unicode text, UTF-8 (with BOM) text, with very long lines (574)
+/Users/colinbird/cw1/objects/%2f(854):       ASCII text, with very long lines (616), with no line terminators
+/Users/colinbird/cw1/objects/%2f(855):       HTML document text, Unicode text, UTF-8 text
+/Users/colinbird/cw1/objects/%2f(856):       ASCII text, with very long lines (1570), with no line terminators
+/Users/colinbird/cw1/objects/%2f(857):       HTML document text, ISO-8859 text, with very long lines (601)
+/Users/colinbird/cw1/objects/%2f(858):       ASCII text, with no line terminators
+/Users/colinbird/cw1/objects/%2f(859):       ASCII text, with very long lines (1956), with no line terminators
+/Users/colinbird/cw1/objects/%2f(86):        HTML document text, ISO-8859 text, with CRLF, LF line terminators
+/Users/colinbird/cw1/objects/%2f(860):       ASCII text, with very long lines (969), with no line terminators
+/Users/colinbird/cw1/objects/%2f(861):       HTML document text, Unicode text, UTF-8 text, with very long lines (23159), with CRLF, LF line terminators
+/Users/colinbird/cw1/objects/%2f(862):       ASCII text, with very long lines (600), with no line terminators
+/Users/colinbird/cw1/objects/%2f(863):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(864):       ASCII text, with very long lines (676), with no line terminators
+/Users/colinbird/cw1/objects/%2f(865):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(866):       ASCII text, with very long lines (772), with no line terminators
+/Users/colinbird/cw1/objects/%2f(867):       ASCII text, with very long lines (676), with no line terminators
+/Users/colinbird/cw1/objects/%2f(868):       ASCII text, with very long lines (986), with no line terminators
+/Users/colinbird/cw1/objects/%2f(869):       HTML document text, ASCII text, with CRLF line terminators
+/Users/colinbird/cw1/objects/%2f(87):        ASCII text, with very long lines (612), with no line terminators
+/Users/colinbird/cw1/objects/%2f(870):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(871):       ASCII text, with very long lines (578), with no line terminators
+/Users/colinbird/cw1/objects/%2f(872):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(873):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(874):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(875):       ASCII text, with very long lines (1003), with no line terminators
+/Users/colinbird/cw1/objects/%2f(876):       ASCII text, with no line terminators
+/Users/colinbird/cw1/objects/%2f(877):       HTML document text, ASCII text, with very long lines (487)
+/Users/colinbird/cw1/objects/%2f(878):       HTML document text, ISO-8859 text, with very long lines (601)
+/Users/colinbird/cw1/objects/%2f(879):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(88):        HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(880):       ASCII text, with very long lines (885), with no line terminators
+/Users/colinbird/cw1/objects/%2f(881):       ASCII text, with very long lines (555), with no line terminators
+/Users/colinbird/cw1/objects/%2f(882):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(883):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(884):       ASCII text, with very long lines (1339), with no line terminators
+/Users/colinbird/cw1/objects/%2f(885):       ASCII text, with very long lines (1068), with no line terminators
+/Users/colinbird/cw1/objects/%2f(886):       HTML document text, Unicode text, UTF-8 text, with very long lines (333)
+/Users/colinbird/cw1/objects/%2f(887):       ASCII text, with very long lines (2028), with no line terminators
+/Users/colinbird/cw1/objects/%2f(888):       ASCII text, with very long lines (1957), with no line terminators
+/Users/colinbird/cw1/objects/%2f(889):       ASCII text, with very long lines (1701), with no line terminators
+/Users/colinbird/cw1/objects/%2f(89):        HTML document text, ASCII text, with very long lines (2388)
+/Users/colinbird/cw1/objects/%2f(890):       ASCII text, with very long lines (401), with no line terminators
+/Users/colinbird/cw1/objects/%2f(891):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(892):       HTML document text, Unicode text, UTF-8 text
+/Users/colinbird/cw1/objects/%2f(893):       ASCII text, with very long lines (1283), with no line terminators
+/Users/colinbird/cw1/objects/%2f(894):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(895):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(896):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(897):       ASCII text, with very long lines (1731), with no line terminators
+/Users/colinbird/cw1/objects/%2f(898):       ASCII text, with very long lines (1745), with no line terminators
+/Users/colinbird/cw1/objects/%2f(899):       ASCII text, with no line terminators
+/Users/colinbird/cw1/objects/%2f(9):         ASCII text, with very long lines (584), with no line terminators
+/Users/colinbird/cw1/objects/%2f(90):        HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(900):       ASCII text, with very long lines (679), with no line terminators
+/Users/colinbird/cw1/objects/%2f(901):       HTML document text, ASCII text, with very long lines (627)
+/Users/colinbird/cw1/objects/%2f(902):       ASCII text, with very long lines (1712), with no line terminators
+/Users/colinbird/cw1/objects/%2f(903):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(904):       ASCII text, with very long lines (1019), with no line terminators
+/Users/colinbird/cw1/objects/%2f(905):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(906):       ASCII text, with very long lines (1857), with no line terminators
+/Users/colinbird/cw1/objects/%2f(907):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(908):       HTML document text, ASCII text, with CRLF line terminators
+/Users/colinbird/cw1/objects/%2f(909):       ASCII text, with very long lines (1499), with no line terminators
+/Users/colinbird/cw1/objects/%2f(91):        ASCII text, with very long lines (624), with no line terminators
+/Users/colinbird/cw1/objects/%2f(910):       ASCII text, with very long lines (2039), with no line terminators
+/Users/colinbird/cw1/objects/%2f(911):       HTML document text, Unicode text, UTF-8 text, with CRLF line terminators
+/Users/colinbird/cw1/objects/%2f(912):       ASCII text, with very long lines (2001), with no line terminators
+/Users/colinbird/cw1/objects/%2f(913):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(914):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(915):       HTML document text, ISO-8859 text, with very long lines (601)
+/Users/colinbird/cw1/objects/%2f(916):       ASCII text, with very long lines (1975), with no line terminators
+/Users/colinbird/cw1/objects/%2f(917):       ASCII text, with no line terminators
+/Users/colinbird/cw1/objects/%2f(918):       ASCII text, with very long lines (1207), with no line terminators
+/Users/colinbird/cw1/objects/%2f(919):       ASCII text, with very long lines (1120), with no line terminators
+/Users/colinbird/cw1/objects/%2f(92):        HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(920):       ASCII text, with very long lines (1424), with no line terminators
+/Users/colinbird/cw1/objects/%2f(921):       ASCII text, with no line terminators
+/Users/colinbird/cw1/objects/%2f(922):       ASCII text, with very long lines (831), with no line terminators
+/Users/colinbird/cw1/objects/%2f(923):       ASCII text, with very long lines (360), with no line terminators
+/Users/colinbird/cw1/objects/%2f(924):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(925):       ASCII text, with very long lines (1233), with no line terminators
+/Users/colinbird/cw1/objects/%2f(926):       XML 1.0 document text, Non-ISO extended-ASCII text
+/Users/colinbird/cw1/objects/%2f(927):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(928):       ASCII text, with very long lines (344), with no line terminators
+/Users/colinbird/cw1/objects/%2f(929):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(93):        ASCII text, with very long lines (564), with no line terminators
+/Users/colinbird/cw1/objects/%2f(930):       HTML document text, ASCII text, with CRLF line terminators
+/Users/colinbird/cw1/objects/%2f(931):       ASCII text, with very long lines (964), with no line terminators
+/Users/colinbird/cw1/objects/%2f(932):       HTML document text, ISO-8859 text, with very long lines (601)
+/Users/colinbird/cw1/objects/%2f(933):       ASCII text, with very long lines (1059), with no line terminators
+/Users/colinbird/cw1/objects/%2f(934):       HTML document text, ASCII text, with very long lines (315)
+/Users/colinbird/cw1/objects/%2f(935):       ASCII text, with very long lines (1863), with no line terminators
+/Users/colinbird/cw1/objects/%2f(936):       HTML document text, ISO-8859 text
+/Users/colinbird/cw1/objects/%2f(937):       HTML document text, ASCII text, with very long lines (998)
+/Users/colinbird/cw1/objects/%2f(938):       HTML document text, Unicode text, UTF-8 text
+/Users/colinbird/cw1/objects/%2f(939):       ASCII text, with very long lines (2033), with no line terminators
+/Users/colinbird/cw1/objects/%2f(94):        ASCII text, with very long lines (616), with no line terminators
+/Users/colinbird/cw1/objects/%2f(940):       ASCII text, with very long lines (1470), with no line terminators
+/Users/colinbird/cw1/objects/%2f(941):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(942):       ASCII text, with very long lines (1654), with no line terminators
+/Users/colinbird/cw1/objects/%2f(943):       ASCII text, with very long lines (979), with no line terminators
+/Users/colinbird/cw1/objects/%2f(944):       ASCII text, with very long lines (1470), with no line terminators
+/Users/colinbird/cw1/objects/%2f(945):       HTML document text, ASCII text, with very long lines (570)
+/Users/colinbird/cw1/objects/%2f(946):       HTML document text, Unicode text, UTF-8 text
+/Users/colinbird/cw1/objects/%2f(947):       ASCII text, with very long lines (1592), with no line terminators
+/Users/colinbird/cw1/objects/%2f(948):       ASCII text, with very long lines (1470), with no line terminators
+/Users/colinbird/cw1/objects/%2f(949):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(95):        ASCII text, with very long lines (584), with no line terminators
+/Users/colinbird/cw1/objects/%2f(950):       ASCII text, with very long lines (800), with no line terminators
+/Users/colinbird/cw1/objects/%2f(951):       HTML document text, Unicode text, UTF-8 text
+/Users/colinbird/cw1/objects/%2f(952):       ASCII text, with very long lines (1069), with no line terminators
+/Users/colinbird/cw1/objects/%2f(953):       ASCII text, with no line terminators
+/Users/colinbird/cw1/objects/%2f(954):       HTML document text, ASCII text, with CRLF line terminators
+/Users/colinbird/cw1/objects/%2f(955):       ASCII text, with very long lines (676), with no line terminators
+/Users/colinbird/cw1/objects/%2f(956):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(957):       HTML document text, ASCII text, with CRLF line terminators
+/Users/colinbird/cw1/objects/%2f(958):       ASCII text, with very long lines (1362), with no line terminators
+/Users/colinbird/cw1/objects/%2f(959):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(96):        ASCII text, with very long lines (576), with no line terminators
+/Users/colinbird/cw1/objects/%2f(960):       ASCII text, with very long lines (477), with no line terminators
+/Users/colinbird/cw1/objects/%2f(961):       ASCII text, with very long lines (429), with no line terminators
+/Users/colinbird/cw1/objects/%2f(962):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(963):       ASCII text, with no line terminators
+/Users/colinbird/cw1/objects/%2f(964):       ASCII text, with very long lines (410), with no line terminators
+/Users/colinbird/cw1/objects/%2f(965):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(966):       ASCII text, with very long lines (1456), with no line terminators
+/Users/colinbird/cw1/objects/%2f(967):       ASCII text, with very long lines (434), with no line terminators
+/Users/colinbird/cw1/objects/%2f(968):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(969):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(97):        HTML document text, ASCII text, with very long lines (742)
+/Users/colinbird/cw1/objects/%2f(970):       ASCII text, with very long lines (550), with no line terminators
+/Users/colinbird/cw1/objects/%2f(971):       ASCII text, with very long lines (505), with no line terminators
+/Users/colinbird/cw1/objects/%2f(972):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(973):       HTML document text, ASCII text, with CRLF line terminators
+/Users/colinbird/cw1/objects/%2f(974):       ASCII text, with very long lines (1290), with no line terminators
+/Users/colinbird/cw1/objects/%2f(975):       ASCII text, with very long lines (1072), with no line terminators
+/Users/colinbird/cw1/objects/%2f(976):       HTML document text, ASCII text, with very long lines (604)
+/Users/colinbird/cw1/objects/%2f(977):       ASCII text, with very long lines (1665), with no line terminators
+/Users/colinbird/cw1/objects/%2f(978):       ASCII text, with very long lines (979), with no line terminators
+/Users/colinbird/cw1/objects/%2f(979):       ASCII text, with no line terminators
+/Users/colinbird/cw1/objects/%2f(98):        HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(980):       HTML document text, Unicode text, UTF-8 text
+/Users/colinbird/cw1/objects/%2f(981):       ASCII text, with very long lines (1480), with no line terminators
+/Users/colinbird/cw1/objects/%2f(982):       HTML document text, ASCII text, with CRLF line terminators
+/Users/colinbird/cw1/objects/%2f(983):       HTML document text, ASCII text, with very long lines (786), with no line terminators
+/Users/colinbird/cw1/objects/%2f(984):       ASCII text, with very long lines (1783), with no line terminators
+/Users/colinbird/cw1/objects/%2f(985):       empty
+/Users/colinbird/cw1/objects/%2f(986):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(987):       ASCII text, with very long lines (654), with no line terminators
+/Users/colinbird/cw1/objects/%2f(988):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(989):       HTML document text, ASCII text, with very long lines (542)
+/Users/colinbird/cw1/objects/%2f(99):        HTML document text, ISO-8859 text
+/Users/colinbird/cw1/objects/%2f(990):       HTML document text, ISO-8859 text, with very long lines (601)
+/Users/colinbird/cw1/objects/%2f(991):       ASCII text, with very long lines (1105), with no line terminators
+/Users/colinbird/cw1/objects/%2f(992):       ASCII text, with very long lines (1967), with no line terminators
+/Users/colinbird/cw1/objects/%2f(993):       ASCII text, with very long lines (2005), with no line terminators
+/Users/colinbird/cw1/objects/%2f(994):       HTML document text, ASCII text, with very long lines (307)
+/Users/colinbird/cw1/objects/%2f(995):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(996):       ASCII text, with very long lines (943), with no line terminators
+/Users/colinbird/cw1/objects/%2f(997):       HTML document text, ASCII text
+/Users/colinbird/cw1/objects/%2f(998):       ASCII text, with very long lines (837), with no line terminators
+/Users/colinbird/cw1/objects/%2f(999):       ASCII text, with very long lines (1870), with no line terminators
+/Users/colinbird/cw1/objects/%3fmin=data:    data
+/Users/colinbird/cw1/objects/%3fmin=data(1): data
+/Users/colinbird/cw1/objects/828949448:      data
+/Users/colinbird/cw1/objects/828949448(1):   data
+/Users/colinbird/cw1/objects/gerv.gun:       PE32 executable (GUI) Intel 80386, for MS Windows
+/Users/colinbird/cw1/objects/object12578:    exported SGML document text, ISO-8859 text
+/Users/colinbird/cw1/objects/object12977:    HTML document text, Non-ISO extended-ASCII text, with CRLF line terminators
+/Users/colinbird/cw1/objects/object14774:    HTML document text, ASCII text, with CRLF line terminators
+/Users/colinbird/cw1/objects/object14966:    HTML document text, ASCII text, with CRLF line terminators
+/Users/colinbird/cw1/objects/object14991:    data
+/Users/colinbird/cw1/objects/object14998:    data
+/Users/colinbird/cw1/objects/object15019:    data
+/Users/colinbird/cw1/objects/object15022:    data
+/Users/colinbird/cw1/objects/object15023:    data
+/Users/colinbird/cw1/objects/object15026:    data
+/Users/colinbird/cw1/objects/object15032:    data
+/Users/colinbird/cw1/objects/object15067:    data
+/Users/colinbird/cw1/objects/object15073:    data
+/Users/colinbird/cw1/objects/object15088:    data
+/Users/colinbird/cw1/objects/object15094:    data
+/Users/colinbird/cw1/objects/object15095:    data
+/Users/colinbird/cw1/objects/object15096:    data
+/Users/colinbird/cw1/objects/object15098:    data
+/Users/colinbird/cw1/objects/object15104:    data
+/Users/colinbird/cw1/objects/object15134:    data
+/Users/colinbird/cw1/objects/object15136:    data
+/Users/colinbird/cw1/objects/object15143:    data
+/Users/colinbird/cw1/objects/object15150:    data
+/Users/colinbird/cw1/objects/object15159:    data
+/Users/colinbird/cw1/objects/object15167:    data
+/Users/colinbird/cw1/objects/object15181:    HTML document text, ASCII text, with CRLF line terminators
+/Users/colinbird/cw1/objects/object15213:    data
+/Users/colinbird/cw1/objects/object15214:    data
+/Users/colinbird/cw1/objects/object15216:    data
+/Users/colinbird/cw1/objects/object15222:    data
+/Users/colinbird/cw1/objects/object15224:    data
+/Users/colinbird/cw1/objects/object15228:    data
+/Users/colinbird/cw1/objects/object15231:    data
+/Users/colinbird/cw1/objects/object15235:    data
+/Users/colinbird/cw1/objects/object15236:    data
+/Users/colinbird/cw1/objects/object15253:    data
+/Users/colinbird/cw1/objects/object15256:    data
+/Users/colinbird/cw1/objects/object15258:    data
+/Users/colinbird/cw1/objects/object15280:    data
+/Users/colinbird/cw1/objects/object15285:    data
+/Users/colinbird/cw1/objects/object15292:    data
+/Users/colinbird/cw1/objects/object15296:    data
+/Users/colinbird/cw1/objects/object15302:    data
+/Users/colinbird/cw1/objects/object15337:    data
+/Users/colinbird/cw1/objects/object15338:    data
+/Users/colinbird/cw1/objects/object15342:    data
+/Users/colinbird/cw1/objects/object15347:    data
+/Users/colinbird/cw1/objects/object15365:    data
+/Users/colinbird/cw1/objects/object15371:    data
+/Users/colinbird/cw1/objects/object15382:    data
+/Users/colinbird/cw1/objects/object15394:    data
+/Users/colinbird/cw1/objects/object15397:    data
+/Users/colinbird/cw1/objects/object15398:    data
+/Users/colinbird/cw1/objects/object15400:    data
+/Users/colinbird/cw1/objects/object15402:    data
+/Users/colinbird/cw1/objects/object15408:    data
+/Users/colinbird/cw1/objects/object15411:    data
+/Users/colinbird/cw1/objects/object15412:    data
+/Users/colinbird/cw1/objects/object15423:    data
+/Users/colinbird/cw1/objects/object15424:    data
+/Users/colinbird/cw1/objects/object15438:    data
+/Users/colinbird/cw1/objects/object15439:    data
+/Users/colinbird/cw1/objects/object15440:    data
+/Users/colinbird/cw1/objects/object15448:    data
+/Users/colinbird/cw1/objects/object15460:    data
+/Users/colinbird/cw1/objects/object15461:    data
+/Users/colinbird/cw1/objects/object15465:    data
+/Users/colinbird/cw1/objects/object15466:    data
+/Users/colinbird/cw1/objects/object15472:    data
+/Users/colinbird/cw1/objects/object15476:    data
+/Users/colinbird/cw1/objects/object15477:    data
+/Users/colinbird/cw1/objects/object15481:    data
+/Users/colinbird/cw1/objects/object15482:    data
+/Users/colinbird/cw1/objects/object15483:    data
+/Users/colinbird/cw1/objects/object15484:    data
+/Users/colinbird/cw1/objects/object15491:    data
+/Users/colinbird/cw1/objects/object15494:    data
+/Users/colinbird/cw1/objects/object15500:    data
+/Users/colinbird/cw1/objects/object15503:    data
+/Users/colinbird/cw1/objects/object15506:    data
+/Users/colinbird/cw1/objects/object15509:    data
+/Users/colinbird/cw1/objects/object15515:    data
+/Users/colinbird/cw1/objects/object15518:    data
+/Users/colinbird/cw1/objects/object15520:    data
+/Users/colinbird/cw1/objects/object15527:    data
+/Users/colinbird/cw1/objects/object15533:    data
+/Users/colinbird/cw1/objects/object15543:    data
+/Users/colinbird/cw1/objects/object15544:    MS Windows COFF Motorola 68000 object file
+/Users/colinbird/cw1/objects/object15548:    data
+/Users/colinbird/cw1/objects/object15552:    data
+/Users/colinbird/cw1/objects/object15556:    data
+/Users/colinbird/cw1/objects/object15557:    data
+/Users/colinbird/cw1/objects/object15565:    data
+/Users/colinbird/cw1/objects/object15572:    data
+/Users/colinbird/cw1/objects/object15575:    data
+/Users/colinbird/cw1/objects/object15577:    data
+/Users/colinbird/cw1/objects/object15582:    data
+/Users/colinbird/cw1/objects/object16115:    exported SGML document text, ISO-8859 text
+/Users/colinbird/cw1/objects/object17102:    HTML document text, ASCII text, with CRLF line terminators
+/Users/colinbird/cw1/objects/object17203:    HTML document text, ASCII text, with CRLF line terminators
+/Users/colinbird/cw1/objects/object5081:     ASCII text, with very long lines (518), with CRLF, CR, LF line terminators
+/Users/colinbird/cw1/objects/object5083:     HTML document text, ASCII text, with CRLF, LF line terminators
+/Users/colinbird/cw1/objects/object5110:     HTML document text, ASCII text, with CRLF, LF line terminators
+/Users/colinbird/cw1/objects/object5112:     HTML document text, ASCII text, with CRLF, LF line terminators
+/Users/colinbird/cw1/objects/object8927:     HTML document text, ASCII text, with CRLF line terminators
+/Users/colinbird/cw1/objects/object9204:     HTML document text, ASCII text, with CRLF line terminators
+/Users/colinbird/cw1/objects/object9383:     HTML document text, ASCII text, with CRLF line terminators
+/Users/colinbird/cw1/objects/object9620:     HTML document text, ASCII text, with very long lines (441)
+/Users/colinbird/cw1/objects/object9621:     HTML document text, ASCII text
+/Users/colinbird/cw1/objects/t64.bin:        data
+/Users/colinbird/cw1/objects/trow.exe:       PE32 executable (GUI) Intel 80386, for MS Windows
+/Users/colinbird/cw1/objects/wp.exe:         PE32 executable (GUI) Intel 80386, for MS Windows

@@ -56,3 +56,18 @@ tshark -r /Users/colinbird/cw1/COMP3010CW1.pcap -Y 'frame.number==6 || frame.num
 # 2026-11-11 13:36
 tshark -r /Users/colinbird/cw1/COMP3010CW1.pcap -Y 'frame.number==6' -T fields -e frame.number -e frame.time_utc -e frame.time_epoch > /Users/colinbird/Documents/GitHub/cw1-investigation/evidence/tshark/frame6-time.txt
 ```
+
+```zsh
+# 2026-11-11 13:47
+tshark -r /Users/colinbird/cw1/COMP3010CW1.pcap --export-objects http,/Users/colinbird/cw1/objects > /dev/null
+```
+
+```zsh
+# 2026-11-11 13:47
+file ~/cw1/objects/* > /Users/colinbird/Documents/GitHub/cw1-investigation/evidence/file-types.txt
+```
+
+```zsh
+# 2026-11-11 13:47
+shasum -a 256 ~/cw1/objects/* > /Users/colinbird/Documents/GitHub/cw1-investigation/evidence/hashes.txt
+```

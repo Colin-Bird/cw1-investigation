@@ -1,0 +1,110 @@
+/Users/colinbird/cw1/objects/%2f(113):       Arhangel archive data
+/Users/colinbird/cw1/objects/%2f(226):       Arhangel archive data
+/Users/colinbird/cw1/objects/%2f(475):       very short file (no magic)
+/Users/colinbird/cw1/objects/%2f(521):       XML 1.0 document text, ISO-8859 text, with very long lines (3884), with CRLF, LF line terminators
+/Users/colinbird/cw1/objects/%2f(62):        very short file (no magic)
+/Users/colinbird/cw1/objects/%2f(629):       very short file (no magic)
+/Users/colinbird/cw1/objects/%2f(70):        very short file (no magic)
+/Users/colinbird/cw1/objects/%2f(707):       Unicode text, UTF-8 text, with no line terminators
+/Users/colinbird/cw1/objects/%3fmin=data:    data
+/Users/colinbird/cw1/objects/%3fmin=data(1): data
+/Users/colinbird/cw1/objects/828949448:      data
+/Users/colinbird/cw1/objects/828949448(1):   data
+/Users/colinbird/cw1/objects/gerv.gun:       PE32 executable (GUI) Intel 80386, for MS Windows
+/Users/colinbird/cw1/objects/object12578:    exported SGML document text, ISO-8859 text
+/Users/colinbird/cw1/objects/object14991:    data
+/Users/colinbird/cw1/objects/object14998:    data
+/Users/colinbird/cw1/objects/object15019:    data
+/Users/colinbird/cw1/objects/object15022:    data
+/Users/colinbird/cw1/objects/object15023:    data
+/Users/colinbird/cw1/objects/object15026:    data
+/Users/colinbird/cw1/objects/object15032:    data
+/Users/colinbird/cw1/objects/object15067:    data
+/Users/colinbird/cw1/objects/object15073:    data
+/Users/colinbird/cw1/objects/object15088:    data
+/Users/colinbird/cw1/objects/object15094:    data
+/Users/colinbird/cw1/objects/object15095:    data
+/Users/colinbird/cw1/objects/object15096:    data
+/Users/colinbird/cw1/objects/object15098:    data
+/Users/colinbird/cw1/objects/object15104:    data
+/Users/colinbird/cw1/objects/object15134:    data
+/Users/colinbird/cw1/objects/object15136:    data
+/Users/colinbird/cw1/objects/object15143:    data
+/Users/colinbird/cw1/objects/object15150:    data
+/Users/colinbird/cw1/objects/object15159:    data
+/Users/colinbird/cw1/objects/object15167:    data
+/Users/colinbird/cw1/objects/object15213:    data
+/Users/colinbird/cw1/objects/object15214:    data
+/Users/colinbird/cw1/objects/object15216:    data
+/Users/colinbird/cw1/objects/object15222:    data
+/Users/colinbird/cw1/objects/object15224:    data
+/Users/colinbird/cw1/objects/object15228:    data
+/Users/colinbird/cw1/objects/object15231:    data
+/Users/colinbird/cw1/objects/object15235:    data
+/Users/colinbird/cw1/objects/object15236:    data
+/Users/colinbird/cw1/objects/object15253:    data
+/Users/colinbird/cw1/objects/object15256:    data
+/Users/colinbird/cw1/objects/object15258:    data
+/Users/colinbird/cw1/objects/object15280:    data
+/Users/colinbird/cw1/objects/object15285:    data
+/Users/colinbird/cw1/objects/object15292:    data
+/Users/colinbird/cw1/objects/object15296:    data
+/Users/colinbird/cw1/objects/object15302:    data
+/Users/colinbird/cw1/objects/object15337:    data
+/Users/colinbird/cw1/objects/object15338:    data
+/Users/colinbird/cw1/objects/object15342:    data
+/Users/colinbird/cw1/objects/object15347:    data
+/Users/colinbird/cw1/objects/object15365:    data
+/Users/colinbird/cw1/objects/object15371:    data
+/Users/colinbird/cw1/objects/object15382:    data
+/Users/colinbird/cw1/objects/object15394:    data
+/Users/colinbird/cw1/objects/object15397:    data
+/Users/colinbird/cw1/objects/object15398:    data
+/Users/colinbird/cw1/objects/object15400:    data
+/Users/colinbird/cw1/objects/object15402:    data
+/Users/colinbird/cw1/objects/object15408:    data
+/Users/colinbird/cw1/objects/object15411:    data
+/Users/colinbird/cw1/objects/object15412:    data
+/Users/colinbird/cw1/objects/object15423:    data
+/Users/colinbird/cw1/objects/object15424:    data
+/Users/colinbird/cw1/objects/object15438:    data
+/Users/colinbird/cw1/objects/object15439:    data
+/Users/colinbird/cw1/objects/object15440:    data
+/Users/colinbird/cw1/objects/object15448:    data
+/Users/colinbird/cw1/objects/object15460:    data
+/Users/colinbird/cw1/objects/object15461:    data
+/Users/colinbird/cw1/objects/object15465:    data
+/Users/colinbird/cw1/objects/object15466:    data
+/Users/colinbird/cw1/objects/object15472:    data
+/Users/colinbird/cw1/objects/object15476:    data
+/Users/colinbird/cw1/objects/object15477:    data
+/Users/colinbird/cw1/objects/object15481:    data
+/Users/colinbird/cw1/objects/object15482:    data
+/Users/colinbird/cw1/objects/object15483:    data
+/Users/colinbird/cw1/objects/object15484:    data
+/Users/colinbird/cw1/objects/object15491:    data
+/Users/colinbird/cw1/objects/object15494:    data
+/Users/colinbird/cw1/objects/object15500:    data
+/Users/colinbird/cw1/objects/object15503:    data
+/Users/colinbird/cw1/objects/object15506:    data
+/Users/colinbird/cw1/objects/object15509:    data
+/Users/colinbird/cw1/objects/object15515:    data
+/Users/colinbird/cw1/objects/object15518:    data
+/Users/colinbird/cw1/objects/object15520:    data
+/Users/colinbird/cw1/objects/object15527:    data
+/Users/colinbird/cw1/objects/object15533:    data
+/Users/colinbird/cw1/objects/object15543:    data
+/Users/colinbird/cw1/objects/object15544:    MS Windows COFF Motorola 68000 object file
+/Users/colinbird/cw1/objects/object15548:    data
+/Users/colinbird/cw1/objects/object15552:    data
+/Users/colinbird/cw1/objects/object15556:    data
+/Users/colinbird/cw1/objects/object15557:    data
+/Users/colinbird/cw1/objects/object15565:    data
+/Users/colinbird/cw1/objects/object15572:    data
+/Users/colinbird/cw1/objects/object15575:    data
+/Users/colinbird/cw1/objects/object15577:    data
+/Users/colinbird/cw1/objects/object15582:    data
+/Users/colinbird/cw1/objects/object16115:    exported SGML document text, ISO-8859 text
+/Users/colinbird/cw1/objects/t64.bin:        data
+/Users/colinbird/cw1/objects/trow.exe:       PE32 executable (GUI) Intel 80386, for MS Windows
+/Users/colinbird/cw1/objects/wp.exe:         PE32 executable (GUI) Intel 80386, for MS Windows
