@@ -3,7 +3,7 @@
 **Analyst:** Colin Bird · **Module:** COMP3010 · **Video briefing:** [link]
 
 ## Case summary
-(2–3 lines, filled in once findings are confirmed)
+The workstation FlashGordon-PC (192.168.1.96) was infected at 13:38:32 UTC when a script on the host PC downloaded a Windows executable (gerv.gun) from matied.com. In six minutes, the host fetched three further payloads and began behaving as a Pushdo/Cutwail spambot where 475 outbound SMTP connection attempts to 155 mail servers masked by 637 decoy web requests to 307 unrelated sites. The entry point is assessed as a malspam JavaScript attachment opened by the user. Immediate isolation and reimaging of the host are recommended followed by egress filtering and script-execution controls.
 
 ## Tools and environment
 Wireshark/TShark 4.6.9, Snort & Suricata alert output (supplied),
