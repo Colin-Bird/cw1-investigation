@@ -1,6 +1,6 @@
 # COMP3010 CW1 – Intrusion Investigation
 
-**Analyst:** Colin Bird · **Module:** COMP3010 · **Video briefing:** [link]
+**Analyst:** Colin Bird · **Module:** COMP3010 · **Video briefing:** https://youtu.be/Pm9yHbOIvws
 
 ## Case summary
 The workstation FlashGordon-PC (192.168.1.96) was infected at 13:38:32 UTC when a script on the host PC downloaded a Windows executable (gerv.gun) from matied.com. In six minutes, the host fetched three further payloads and began behaving as a Pushdo/Cutwail spambot where 475 outbound SMTP connection attempts to 155 mail servers masked by 637 decoy web requests to 307 unrelated sites. The entry point is assessed as a malspam JavaScript attachment opened by the user. Immediate isolation and reimaging of the host are recommended followed by egress filtering and script-execution controls.
